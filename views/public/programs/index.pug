@@ -1,0 +1,20 @@
+extends ../includes/layout.pug
+block content
+    main.site-content._programs._split._side-margin
+        section.page-content
+            ul.program-list
+                li.program-title
+                    h2= i18n.title
+                - var year = 0;
+                each program in results
+                    if (program.year != year)
+                        - year = program.year
+                        li.program-year
+                            p=year
+                    li.program-item
+                        p= program.title
+                        a.cta.hollow(href=`/${active}/${program.urlName}`)= i18n.detailsButton
+
+        aside.page-sidebar
+            +catalog-banner
+

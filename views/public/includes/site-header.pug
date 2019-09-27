@@ -1,0 +1,32 @@
+header.site-header
+    .site-branding
+        h1.site-title: a.site-logo(href='/')= i18n.menu.slogan
+        if ('hu' === locale)
+            +site-certificates
+        button.toggle-navigation
+            span
+            span
+            span
+    .navigation
+        nav.site-navigation.primary
+            ul.menu.site-menu
+                li: a.site-logo.small(href='/')= i18n.menu.slogan
+                each menuItem in i18n.menu.primary
+                    li: a(class=(menuItem.path === active ? 'active' : '') href=`/${menuItem.path}`)= menuItem.label
+            ul.menu.customer
+                li: a.edi.hungary(href=i18n.menu.customer.hungary.url target='_blank')= i18n.menu.customer.hungary.title
+                    span.country= i18n.menu.customer.hungary.country
+                li: a.edi.bohemia(href=i18n.menu.customer.bohemia.url target='_blank')= i18n.menu.customer.bohemia.title
+                    span.country= i18n.menu.customer.bohemia.country
+        nav.site-navigation.secondary
+            ul.menu.secondary
+                each menuItem in i18n.menu.secondary
+                    li: a(class=(menuItem.path === active ? 'active' : '') href=`/${menuItem.path}`)= menuItem.label
+    nav.site-lang
+        ul
+            li: a.lang(href='/hu'): img(src='/assets/img/hungary.png')
+            li: a.lang(href='/en'): img(src='/assets/img/united-kingdom.png')
+            li: a.lang(href='/cz'): img(src='/assets/img/czech-republic.png')
+            li: a.lang(href='/de'): img(src='/assets/img/deutsch.png')
+                //- each menuItem in i18n.menu.locales
+                    li: a.language(href=`/${menuItem.path}`)= menuItem.label

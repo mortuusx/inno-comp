@@ -1,0 +1,49 @@
+extends ../includes/layout.pug
+block content
+    main.site-content._news-single._side-margin._split
+        section.page-content
+            ._side-margin__mobile
+                +back(`/${active}`, i18n.backText, '_mobile-only')
+                h2.news__title= document.title
+                .date-cont
+                    .date
+                        //-+niceDate(document.createdAt)
+                    .fb-like(data-href=encodeURI(active), data-layout='button', data-action='recommend', data-size='large', data-show-faces='false', data-share='false')
+
+            if (document.imageUrl)
+                img(src=document.imageUrl)
+            //- p.lead
+            //- p
+            ._side-margin__mobile
+                | !{document.content}
+
+            if (document.gallery)
+                if (document.gallery.cover && document.gallery.images.length > 0)
+                    .gallery-opener
+                        button.gallery-link(gallery=JSON.stringify(document.gallery.images))
+                        img(src=document.gallery.cover.filename)
+                        .gallery-data
+                            .instruction= i18n.gallery.open
+                            - var tempCounter = document.gallery.images.length || 0
+                            .counter= tempCounter > 1 ? `${tempCounter} ${i18n.gallery.pictures}` : `${tempCounter} ${i18n.gallery.picture}`
+
+            ._side-margin__mobile
+                +back(`/${active}/`, i18n.backText)
+                +proposer([{
+                    "title": document.prev ? i18n.prevText : '' ,
+                    "text": document.prev && document.prev.title ? document.prev.title : '',
+                    "url": document.prev && document.prev.urlName ? `/${active}/${document.prev.urlName}` : ''
+                }, {
+                    "title": document.next ? i18n.nextText: '',
+                    "text": document.next && document.next.title ? document.next.title : '',
+                    "url": document.next && document.next.urlName ? `/${active}/${document.next.urlName}` : ''
+                }], document.next && document.prev ? 'wide' : 'narrow')
+
+        aside.page-sidebar
+            .latest._side-margin__mobile
+                h3.latest__title= i18n.latestTitle
+                ul.list.latest__news
+                    each article in document.recent
+                        li: a(href=article.urlName)= article.title
+
+            +catalog-banner

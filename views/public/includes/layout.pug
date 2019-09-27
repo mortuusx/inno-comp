@@ -1,0 +1,35 @@
+include ./mixins.pug
+doctype html
+html
+    head
+        title= title
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        +meta(i18n)
+        link(rel="shortcut icon" href='/favicon/favicon.ico')
+        style!= pagespeed.style
+        link(rel='stylesheet' href='/assets/css/style.css')
+        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700|Titillium+Web:400,700&amp;subset=latin-ext')
+        script(async src='https://www.googletagmanager.com/gtag/js?id=UA-147987939-1')
+    body
+        #fb-root
+        script.
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.10";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        script.
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-147987939-1');
+
+        include ./site-header.pug
+        block content
+        +hero('footer', i18n.footer.hero)
+        include ./site-footer.pug
+        //- noscript#st
+        script!= pagespeed.script
