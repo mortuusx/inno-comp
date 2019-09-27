@@ -1,0 +1,10 @@
+extends includes/layout.pug
+block content
+    main.site-content._home
+        +hero('header', i18n.hero)
+        ._mobile-only
+            +site-certificates
+        ._side-margin
+            +tiles(i18n.landingTiles)
+            +home-news-tiles(results, newsPath, i18n.newsTilesTitle)
+            +more-btn({text: i18n.newsTilesMore, url: newsPath})

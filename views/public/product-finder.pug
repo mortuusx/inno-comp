@@ -1,0 +1,178 @@
+extends includes/layout.pug
+block content
+    -
+        var versionMap = {
+            "CS 1-5810 T20": "_v2",
+            "INNOBATCH PPH 3160": "_v4",
+            "CS 2-3110 TO BU": "_v5",
+            "CS 1-3140 OL": "_v6",
+            "CS 2-3130 T25": "_v2",
+            "CS 2-8000": "_v8",
+            "CS 1-5820": "_v3",
+            "CS 4-8830 GF25": "_v2",
+            "CS 3-4120 RC": "_v5",
+            "CS 2-3730 T20 FR": "_v2",
+            "CS 2-4750 FR": "_v2",
+            "CS 2-2110 MO": "_v4",
+            "CS 1-4140 AP": "_v4",
+            "CS 2-9301_4": "_v4",
+            "CS 1-3000 B DEL": "_v3",
+            "CS 2-2820": "_v4",
+            "CS 4-8830 ": "_v4",
+            "CS 2-9000 BU_2 (5PK)": "_v5",
+            "CS 1-5830": "_v5",
+            "CS 1-4610 FR": "_v6",
+            "CS 1-5840 MA": "",
+            "CS 2-3000_3": "_v4",
+            "CS 2-2130 TA": "_v5",
+            "CS 1-5820 15GF": "_v4",
+            "CS 8-7000 G": "_v3",
+            "CS 1-2140 LH": "_v5",
+            "CS 2-3120 BPLU": "_v5",
+            "CS 1-2810": "_v5",
+            "CS 3-7120": "_v2",
+            "CS 2-9524": "_v2",
+            "CS 2-2000 TO": "_v4",
+            "CS 2-2130 T25": "_v3",
+            "CS 1-4130 GF10": "_v5",
+            "CS 1-1000 TRS": "_v6",
+            "CS 2-2910 WF": "",
+            "CS 2-7120": "_v4",
+            "CS 2-4000 GM BA": "_v4",
+            "CS 1-7830 HL": "_v5",
+            "CS 2-4120": "_v4",
+            "CS 1-5830 MA": "_v5",
+            "CS 1-7110 N": "",
+            "CS 2-4810": "_v2",
+            "CS 2-3120 KAR NU": "_v4",
+            "CS 1-4940 MC": "_v5",
+            "CS 2-5130 NU": "_v3",
+            "CS 5-8250 W": "_v4",
+            "CS 2-7630 FR": "_v2",
+            "CS 2-3000 TO": "_v3",
+            "CS 1-5860 GF55": "_v3",
+            "CS 3-4130": "_v3",
+            "CS 2-3130": "_v6",
+            "CS 2-2810 T10": "_v4",
+            "CS 2-9523 T16SR NU": "_v1",
+            "CS 4-8000 ": "_v5",
+            "CS 1-6140": "_v6",
+            "CS 1-5140 LH": "_v5",
+            "CS 2-6130 T25": "_v2",
+            "CS 2-2820 GF15 NU": "_v2",
+            "CS 1-2840 HFR": "_v1",
+            "CS 1-8750 FR": "_v3",
+            "CS 1-6630 CON FR": "_v3",
+            "CS 2-9000 BU_3 (5PK)": "_v2",
+            "CS 2-3120 T17SR": "_v2",
+            "INNOBATCH PPH 3260": "_v4",
+            "CS 2-3120 MO": "_v2",
+            "CS 2-9000 MA N": "_v3",
+            "CS 2-6140 RC": "",
+            "CS 2-5512 N": "_v4",
+            "CS 1-3120 OL": "_v8",
+            "CS 2-5830": "_v4",
+            "CS 2-2120": "_v5",
+            "CS 1-3250 A-110": "_v1",
+            "CS 2-8660 FR": "",
+            "CS 1-5120 LH": "_v4",
+            "CS 2-1000": "_v6",
+            "CS 3-9120 SR5 BU": "_v7",
+            "INNOBATCH PPH 6160": "_v4",
+            "CS 2-6140": "_v3",
+            "CS 2-9302": "_v4",
+            "CS 1-5840 GF35": "_v6",
+            "CS 2-9120 BPL": "_v4",
+            "CS 3-5120": "_v3",
+            "CS 2-4630 FR": "_v6",
+            "CS 1-3750 HFR": "_v1",
+            "CS 2-3120 OL": "_v6",
+            "CS 2-9502 OL": "_v5",
+            "CS 3-9230 KAR GU ": "_v5",
+            "CS 2-7000 NU": "_v1",
+            "CS 1-1240 I-160": "_v5",
+            "CS 1-3140 MA BU": "_v2",
+            "CS 2-6130": "_v3",
+            "CS 2-4610 FR": "_v2",
+            "CS 3-9230 KAR YU": "_v5",
+            "CS 2-3303 EMO BU": "_v5",
+            "CS 1-8000 N": "_v3",
+            "CS 1-7630 FR": "_v3",
+            "CS 2-9522 T15SR ": "_v5",
+            "CS 2-8302": "_v6",
+            "CS 2-9000 OL": "_v4",
+            "CS 2-3120 ": "_v5",
+            "CS 4-8820 GF15": "_v5",
+            "CS 4-8820 ": "_v5",
+            "CS 2-8120": "_v3",
+            "CS 2-8940 BA42 GU 7035": "_v4",
+            "CS 8-7000 RC B": "_v2",
+            "CS 1-7120": "_v4",
+            "CS 3-9230 KAR BU": "_v5",
+            "CS 2-8960 BA60": "_v4",
+            "CS 2-9523": "_v5",
+            "CS 1-6820 MA": "_v5",
+            "CS 2-2513 MF": "_v7",
+            "CS 1-3820 MA": "_v7",
+            "CS 3-9230": "_v4",
+            "CS 2-5000": "_v4",
+            "CS 1-6830 HS": "_v3",
+            "CS 1-3810": "_v6",
+            "CS 1-9120 FR NU": "_v4",
+            "CS 1-3830": "_v5",
+            "CS 1-3260 H-180": "_v5",
+            "CS 2-3302": "_v2",
+            "CS 1-3120 MA BU": "_v4",
+            "CS 1-7000 N": "_v2",
+            "CS 3-3120": "_v5",
+            "CS 1-3830 HP": "_v3",
+            "CS 1-7760 FR": "_v2",
+            "CS 1-3130 GF5": "_v5",
+            "INNOBATCH PPH 6260": "_v4",
+            "CS 1-1120 EX": "_v6",
+            "CS 1-2820": "_v3",
+            "CS 1-3120 DEL": "_v1",
+            "CS 1-3830 HS": "_v7",
+            "CS 1-3850 HFR": "_v1",
+            "CS 2-3000/3": "_v4" }
+
+    .ps(products-search)
+        .ps__top: form(method='post' action='').ps-form
+            .ps-form__title.title= i18n.title
+            fieldset.ps-form__top
+                each field in i18n.formFields
+                    .ps-form-field.field
+                        label.ps-form-field__label.label(for=field.name)= field.label
+                        select.ps-form-field__select.select(name=field.name)
+                            option(value='')= i18n.selectPlaceholder
+                            each option in field.options
+                                option(value=option.value)= option.display
+            .ps-form__bottom
+                .ps-results
+                    span.ps-results__label= `${i18n.searchLabel}: `
+                    span.ps-results__results
+                        span.resultCount 0
+                        span.resultLabel= i18n.searchResults
+                .ps-actions
+                    button.ps-btn.reset.cta.hollow.white(type='button')= i18n.resetButtonLabel
+                    //-button.ps-btn.search.cta(type='button')= i18n.searchButtonLabel
+        table.ps-table
+            thead
+                tr.ps-row.header
+                    th.ps-tcell
+                    each column in columns
+                        th.ps-tcell= i18n[column]
+            tbody
+                each list in Object.keys(results)
+                    tr
+                      td.ps-row.section-header(colspan=8)= i18n[list]
+                    each polymerType in Object.keys(results[list])
+                        tr.ps-row
+                            td.ps-tcell.side: span= polymerShorts[polymerType]
+                            each productList in results[list][polymerType]
+                                td.ps-tcell: ul.ps-product-list
+                                    each product in productList
+                                        li.ps-product(details=product)
+                                            span.ps-product__name= product.name
+                                            - const version = versionMap[product.name] || '';
+                                            span.ps-product__download: a(href=(product.pdfUrl || `/assets/pdf/TDS_${product.name.replace('/','_')}_en${version}.pdf`) target='_blank')= product.name

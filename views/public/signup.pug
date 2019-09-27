@@ -1,0 +1,10 @@
+extends includes/layout.pug
+block content
+    main.site.login: form(method='post' action='/signup')
+        input(type='text' name='email' placeholder='Email')
+        input(type='password' name='password' placeholder='Password')
+        input(type='text' name='firstName' placeholder='First Name')
+        input(type='text' name='lastName' placeholder='Last Name')
+        //- csak tesztelésre van bent a checkb.
+        input(type='checkbox' name='isAdmin' value='true')
+        button Regisztráció

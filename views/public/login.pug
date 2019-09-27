@@ -1,0 +1,7 @@
+extends includes/layout.pug
+block content
+    main.site.login: form(method='post' action='/login')
+        input(type='text' name='email')
+        input(type='password' name='password')
+        button Bejelentkezés
+        p: a(href='/signup') Regisztráció

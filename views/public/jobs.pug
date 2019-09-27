@@ -1,0 +1,14 @@
+extends includes/layout.pug
+block content
+    main.site-content._jobs._side-margin
+        each job in results
+            article.job
+                h2.job__position= job.position
+                h3.job__title= i18n.taskTitle
+                .list !{job.tasks}
+                h3.job__title= i18n.expTitle
+                .list !{job.expectations}
+                h3.job__title= i18n.infoTitle
+                | !{job.info}
+                | !{job.contact}
+                p.deadline= i18n.deadLineTitle + ': ' + job.deadline
