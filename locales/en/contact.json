@@ -1,0 +1,148 @@
+{
+    "companyName": "Inno-Comp Kft.",
+    "country": "Hungary",
+    "labels": {
+        "tel": "Tel.",
+        "mail": "E-mail"
+    },
+    "desc": {
+        "hq": "Headquarters",
+        "ps": "Production Site",
+        "so": "Sales Office",
+        "sr": "Sales Representative"
+    },
+    "companyData": [{
+        "name": "Address",
+        "value": "Vegyészek útja 8, H-3580 Tiszaújváros"
+    }, {
+        "name": "Postal address",
+        "value": "P.O.B. 118, H-3581 Tiszaújváros"
+    }, {
+        "name": "Court reg. num",
+        "value": "05-09-007486"
+    }, {
+        "name": "Tax ID",
+        "value": "11797881-2-05"
+    }, {
+        "name": "EU Tax ID",
+        "value": "HU11797881"
+    }, {
+        "name": "Tel.",
+        "value": "+36 49 542 084"
+    }, {
+        "name": "Fax",
+        "value": "+36 49 522 509"
+    }, {
+        "name": "E-mail",
+        "value": "innocomp@innocomp.hu"
+    }, {
+        "name": "WEB",
+        "value": "www.inno-comp.hu"
+    }, {
+        "name": "GPS",
+        "value": "N 47.91866º and E 21.03778º"
+    }],
+    "departments": [
+        { "title" : "Head of Sales & Marketing", "name": "Mr. Sándor Suhajda", "tel": [" +36 49 542 084 /126"], "mail": " suhajda.sandor@innocomp.hu" },
+        { "title" : "Sales Manager", "name": "Mr. Attila Gáthi", "tel": [" +36 49 542 084 /117"], "mail": " gathi.attila@innocomp.hu" },
+        { "title" : "Sales Engineer", "name": "Mr. Balázs Kugler", "tel": [" +36 49 542 084 /124"], "mail": " kugler.balazs@innocomp.hu" },
+        { "title" : "Sales representative in Poland", "name": "Mr. Daniel Straczyk", "tel": [" +48 665 650 750"], "mail": " daniel.straczyk@innocomp.hu" }
+    ],
+    "subsidiaries": [{
+        "name": "Inno-Comp Bohemia, s.r.o.",
+        "country": "Czechia",
+        "map": {
+            "name": "xxx",
+            "url": ""
+        },
+        "data": [{
+            "name": "Address",
+            "value": "Areál Unipetrolu RPA, s.r.o. CZ-436 70 Litvínov, Záluzí 1."
+        }, {
+            "name": "Tel.",
+            "value": "+420 476 163 637"
+        }, {
+            "name": "Fax",
+            "value": "+420 476 164 647"
+        }, {
+            "name": "E-mail",
+            "value": "icbohemia@innocomp.hu"
+        }, {
+            "name": "GPS",
+            "value": "N 50.56535º and E 13.60890º"
+        }],
+        "sales": {
+            "title": "Sales Manager",
+            "name": "Mr. Vladimír Duchan",
+            "data": [{
+                "name": "Tel.",
+                "value":  "+420 736 505 161"
+            }, {
+                "name": "E-mail",
+                "value":  "vladimir.duchan@innocomp.hu"
+            }]
+        }
+    }, {
+        "name": "Inno-Comp Slovakia, s.r.o.",
+        "country": "Slovakia",
+        "map": {
+            "name": "xxx",
+            "url": ""
+        },
+        "data": [{
+            "name": "Address",
+            "value": "Drieňová 34, SK-82102 Bratislava"
+        }, {
+            "name": "Tel.",
+            "value": "+420 476 163 637"
+        }, {
+            "name": "Fax",
+            "value": "+420 476 164 647"
+        }, {
+            "name": "E-mail",
+            "value": "icbohemia@innocomp.hu"
+        }],
+        "sales": {
+            "title": "Sales Manager",
+            "name": "Mr. Vladimír Duchan",
+            "data": [{
+                "name": "Tel.",
+                "value":  "+420 476 163 637"
+            }, {
+                "name": "E-mail",
+                "value":  "vladimir.duchan@innocomp.hu"
+            }]
+        }
+    }, {
+        "name": "Inno-Comp Deutschland GmbH",
+        "country": "Germany",
+        "map": {
+            "name": "xxx",
+            "url": ""
+        },
+        "data": [{
+            "name": "Address",
+            "value": "Am Bülten 54, D-46342 Velen"
+        }, {
+            "name": "Tel.",
+            "value": "+49 2863 383 6333"
+        }, {
+            "name": "Fax",
+            "value": "+49 2863 383 6335"
+        }, {
+            "name": "E-mail",
+            "value": "thomas.schmaeing@innocomp.hu"
+        }],
+        "sales": {
+            "title": "Managing Director",
+            "name": "Mr. Thomas Schmäing",
+            "data": [{
+                "name": "Tel.",
+                "value":  "+49 2863 383 6333"
+            }, {
+                "name": "E-mail",
+                "value":  "thomas.schmaeing@innocomp.hu"
+            }]
+        }
+    }]
+}

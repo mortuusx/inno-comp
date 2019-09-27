@@ -1,0 +1,65 @@
+extends includes/layout.pug
+block content
+    main.site-content._contact
+        .map-cont
+            ._desc
+                p
+                  img(src='/assets/img/svg/IC__maps-POI_HQ.svg')
+                  =i18n.desc.hq
+                p
+                  img(src='/assets/img/svg/IC__maps-POI_PS.svg')
+                  =i18n.desc.ps
+                p
+                  img(src='/assets/img/svg/IC__maps-POI_SO.svg')
+                  =i18n.desc.so
+                p
+                  img(src='/assets/img/svg/IC__maps-POI_SR.svg')
+                  =i18n.desc.sr
+            ._side-margin
+                ._side-margin__mobile.company-cont
+                    h2.company__name= i18n.companyName
+                    h3.company__country= i18n.country
+                    dl.definition-list.company-data
+                        each data in i18n.companyData
+                            dt(class=!data.name ? 'hide' : '')= data.name ? data.name : ''
+                            if data.value
+                                dd= data.value
+                            if data.values
+                                dd
+                                    each value in data.values
+                                        span= value
+        ._side-margin
+            .company__departments
+                each department in i18n.departments
+                    .department-box.accordion
+                        .department__name= department.title
+                        .department__contact= department.name
+                        dl.definition-list.department__data
+                            dt= i18n.labels.tel
+                            dd
+                                each tel in department.tel
+                                    span= tel
+                            dt= i18n.labels.mail
+                            dd
+                                span= department.mail
+
+            .company__subsidiaries._side-margin__mobile
+                each subsidiary in i18n.subsidiaries
+                    .subsidiary-box
+                        .subsidiary__name= subsidiary.name
+                        .subsidiary__country= subsidiary.country
+                            //-a.subsidiary__map(href=subsidiary.map.url)= subsidiary.map.name
+                        dl.definition-list.subsidiary__data
+                            each data in subsidiary.data
+                                dt= data.name
+                                dd!= data.value
+                        .subsidiary__sale-contact
+                            .sale__title= subsidiary.sales.title
+                            .sale__name= subsidiary.sales.name
+                            dl.definition-list.sale__data
+                                each data in subsidiary.sales.data
+                                    dt= data.name
+                                    dd= data.value
+
+
+

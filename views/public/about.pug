@@ -1,0 +1,15 @@
+extends includes/layout.pug
+block content
+    main.site-content._about
+        +hero-img(i18n.aboutUsHeroImg.img)
+        ._side-margin
+            +article(i18n.storyArticle)
+            +tiles(i18n.aboutUsImgTiles)
+            +tiles(i18n.largeTiles)
+            +article(i18n.missionArticle)
+
+        +hero-img(i18n.aboutUsMissionHeroImg.img)
+
+        ._side-margin
+            +tiles(i18n.demandsTiles)
+            +article(i18n.socialArticle)

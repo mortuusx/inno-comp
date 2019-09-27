@@ -1,0 +1,199 @@
+mixin mediaField(document)
+    if (document)
+        if (document.images)
+            - var images = JSON.stringify(document.images);
+        else if document.image
+            - var images = JSON.stringify([document.image]);
+        else
+            - var images = '';
+    else
+        - var images = '';
+    .mdl-grid
+        .mdl-cell.mdl-cell--1-col
+        .mdl-cell.mdl-cell--10-col
+            fieldset(media-modal images=images cover=document && document.cover ? document.cover : '')
+        .mdl-cell.mdl-cell--1-col
+//- opts = { name: '', label: '' }
+mixin fileField(opts)
+    .mdl-grid
+        .mdl-cell.mdl-cell--1-col
+        .mdl-cell.mdl-cell--10-col
+            label(for=opts.name)= opts.label
+            input(type='file' name=opts.name multiple= opts.multiple ? true : false)
+        .mdl-cell.mdl-cell--1-col
+//- opts = { name: '', parent: '', label: '' }
+mixin textField(opts)
+    .mdl-grid
+        .mdl-cell.mdl-cell--1-col
+        .mdl-cell.mdl-cell--10-col: .mdl-textfield.mdl-js-textfield.mdl-textfield--floating-label
+            if (opts.parent)
+                if (opts.required)
+                    input.mdl-textfield__input(id=`${opts.parent}-${opts.name}` required="required" type=(opts.password ? 'password' : 'text') name=`${opts.parent}-${opts.name}` value=document && document[opts.parent][opts.name] ? document[opts.parent][opts.name] : '')
+                else
+                    input.mdl-textfield__input(id=`${opts.parent}-${opts.name}` type=(opts.password ? 'password' : 'text') name=`${opts.parent}-${opts.name}` value=document && document[opts.parent][opts.name] ? document[opts.parent][opts.name] : '')
+            else
+                if (opts.required)
+                    input.mdl-textfield__input(id=opts.name required="required" type=(opts.password ? 'password' : 'text') name=opts.name value=document && document[opts.name] ? document[opts.name] : '')
+                else
+                    input.mdl-textfield__input(id=opts.name type=(opts.password ? 'password' : 'text') name=opts.name value=document && document[opts.name] ? document[opts.name] : '')
+            label.mdl-textfield__label(for=opts.name)= opts.label
+        .mdl-cell.mdl-cell--1-col
+mixin textareaField(opts)
+    .mdl-grid
+        .mdl-cell.mdl-cell--1-col
+        .mdl-cell.mdl-cell--10-col
+            label(for=opts.name)= opts.label
+            if (opts.parent)
+                textarea.editor(type='text' id=`${opts.parent}-${opts.name}` name=`${opts.parent}-${opts.name}` value=document && document[opts.parent][opts.name] ? document[opts.parent][opts.name] : '')= document && document[opts.parent][opts.name] ? document[opts.parent][opts.name] : ''
+            else
+                textarea.editor(type='text' id=opts.name name=opts.name value=document && document[opts.name] ? document[opts.name] : '')= document && document[opts.name] ? document[opts.name] : ''
+        .mdl-cell.mdl-cell--1-col
+//- opts = { name: '', parent: '', label: '', values: '', toLowerCase: '' }
+mixin selectField(opts)
+    .mdl-grid
+        .mdl-cell.mdl-cell--1-col
+        .mdl-cell.mdl-cell--10-col
+            label(for=opts.name)= opts.label
+            select(name=`${opts.parent ? opts.parent + '-' + opts.name : opts.name}` multiple= (opts.multiple ? true : false))
+                each val in opts.values
+                    - var checkval = `${document && document[opts.name]}`
+                    if (opts.parent)
+                        - checkval = `${document && document[opts.parent][opts.name]}`
+                    if (opts.toLowerCase)
+                        - val = val.toLowerCase()
+                    if (document && val === checkval)
+                        option(value=val selected)= val
+                    else
+                        option(value=val)= val
+        .mdl-cell.mdl-cell--1-col
+
+//- opts = { name: '', label: '', value }
+mixin checkboxField(opts)
+    .mdl-grid
+        .mdl-cell.mdl-cell--1-col
+        .mdl-cell.mdl-cell--10-col: label.mdl-checkbox.mdl-js-checkbox.mdl-js-ripple-effect(for=opts.name)
+                if (opts.isChecked)
+                    input.mdl-checkbox__input(type='checkbox' name=opts.name value=opts.value id=opts.name checked)
+                else
+                    input.mdl-checkbox__input(type='checkbox' name=opts.name value=opts.value id=opts.name)
+                span.mdl-checkbox__label= opts.label
+        .mdl-cell.mdl-cell--1-col
+
+mixin buttonField(label)
+    .mdl-grid.button-row
+        .mdl-cell.mdl-cell--1-col
+        .mdl-cell.mdl-cell--10-col: button.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored(type='submit')= label
+        .mdl-cell.mdl-cell--1-col
+
+mixin col(opts)
+    .col(class=opts.class ? opts.class : '')
+        p.label= opts.label
+        p.value!= opts.value
+
+mixin results(type, results)
+    if ('media' === type)
+        .mdl-grid
+            each result in results
+                .mdl-cell.mdl-cell--3-col.mdl-card.mdl-shadow--4dp.media(style=`background:url('${result.filename}') center / cover;`)
+                    .mdl-card__title.mdl-card--expand
+                    .mdl-card__actions
+                        span.caption= result.caption.hu
+                        span.mdl-layout-spacer
+                        a(href=`/admin/${type}/edit/${result._id}`).edit.mdl-button.mdl-button--colored.mdl-js-button.mdl-button--icon.mdl-js-ripple-effect: i.material-icons edit
+                        a(href=`/admin/${type}/delete/${result._id}`).delete.mdl-button.mdl-button--colored.mdl-js-button.mdl-button--icon.mdl-js-ripple-effect: i.material-icons delete
+
+    else
+        each result in results
+            .mdl-grid
+                .mdl-cell.mdl-cell--3-col
+                .mdl-cell.mdl-cell--6-col
+                    .mdl-card.mdl-shadow--4dp(style='width:100%;' class=('news' === type ? 'news' : ''))
+                        .mdl-card__title(class=('news' === type ? 'news' : '') style=('news' === type ? `background: url(${result.image}) center / cover;` : ''))
+                            h2.mdl-card__title-text.mdl-typography--title
+                                a(href=`/admin/${type}/edit/${result._id}`)
+                                    if ('products' === type)
+                                        span= result.name
+                                    else if ('users' === type)
+                                        span= `${result.lastName} ${result.firstName}`
+                                    else if ('jobs' === type)
+                                        span= result.position && result.position.hu ? result.position.hu : ''
+                                    else
+                                        span= result.title && result.title.hu ? result.title.hu : ''
+                        .mdl-card__supporting-text
+                            +col({ label: 'Created At', value: result.createdAt })
+                            +col({ label: 'Upadted At', value: result.updatedAt })
+                            if ('news' === type)
+                                +col({ label: 'Author', value: result.author })
+                                +col({ label: 'Published', value: result.published })
+                                hr
+                                +col({ label: 'Content', value: result.content && result.content.hu ? result.content.hu.substr(0, 200) : '', class: 'full' })
+                            if ('products' === type)
+                                +col({ label: 'Extrusion', value: result.extrusion })
+                                +col({ label: 'Injection Moulding', value: result.injectionMoulding })
+                                +col({ label: 'MFR', value: result.mfr })
+                                +col({ label: 'Density', value: result.density })
+                                +col({ label: 'Tensile Modulus', value: result.tensileModulus })
+                                +col({ label: 'Yield Stress', value: result.yieldStress })
+                                +col({ label: 'Impact Strength (U23)', value: result.impactStrength.u23 })
+                                +col({ label: 'Impact Strength (UM20)', value: result.impactStrength.u20 })
+                                +col({ label: 'Impact Strength (N23)', value: result.impactStrength.n23 })
+                                +col({ label: 'Impact Strength (NM20)', value: result.impactStrength.nm20 })
+                                +col({ label: 'Flexural Modulus', value: result.flexuralModulus })
+                                +col({ label: 'HDT', value: result.hdt })
+                                +col({ label: 'FR Class', value: result.frClass })
+                                +col({ label: 'Scratch Resistance', value: result.scratchResistance })
+                                +col({ label: 'UV Resistance', value: result.uvResistance })
+                                +col({ label: 'Filler Type (talc)', value: result.fillerType.talc })
+                                +col({ label: 'Filler Type (chalk)', value: result.fillerType.chalk })
+                                +col({ label: 'Filler Type (mica)', value: result.fillerType.mica })
+                                +col({ label: 'Filler Type (glass fibre)', value: result.fillerType.glassFibre })
+                                +col({ label: 'Filler Type (barium sulphate)', value: result.fillerType.bariumSulphate })
+                                +col({ label: 'Filler Type (elastomer)', value: result.fillerType.elastomer })
+                                +col({ label: 'Filler Type (wood fibre)', value: result.fillerType.woodFibre })
+                                +col({ label: 'Filler Type (different filler)', value: result.fillerType.differentFiller })
+                                .col: a.mdl-button.mdl-js-button.mdl-button--icon.mdl-button--colored(href=result.pdfUrl): i(class='material-icons md-18') description
+                            if ('users' === type)
+                                +col({ label: 'Email', value: result.email })
+                                +col({ label: 'Admin jogosultság', value: result.isAdmin })
+                            if ('jobs' === type)
+                                +col({ label: 'Jelentkezési határidő', value: result.deadline && result.deadline.hu ? result.deadline.hu : '' })
+                                +col({ label: 'Published', value: result.published })
+                            if ('programs' === type)
+                                +col({ label: 'Felvezető', value: result.lead && result.lead.hu ? result.lead.hu : '' })
+                                +col({ label: 'Év', value: result.year ? result.year : '' })
+                                +col({ label: 'Published', value: result.published })
+                            if ('galleries' === type)
+                                +col({ label: 'Képek száma', value: result.count ? result.count : '' })
+                        .mdl-card__actions.mdl-card--border
+                            a.mdl-button.mdl-js-button.mdl-button--icon.mdl-button--colored(href=`/admin/${type}/edit/${result._id}`): i(class='material-icons md-18') edit
+                            a.mdl-button.mdl-js-button.mdl-button--icon.mdl-button--colored(href=`/admin/${type}/delete/${result._id}`): i(class='material-icons md-18') delete
+                .mdl-cell.mdl-cell--3-col
+
+mixin card(opts)
+    - var widthClass = ''
+    if (opts.width)
+        - widthClass = `mdl-cell mdl-cell--${opts.width}-col`
+    .mdl-card.mdl-shadow--2dp(class=widthClass)
+        .mdl-card__title: .mdl-card__title-text= opts.title
+        .mdl-card__supporting-text
+            if block
+                block
+            else
+                p= opts.text
+        if actions && actions.length
+            .mdl-card__actions.mdl-card--border
+                each action in actions
+                    a.mdl-button.mdl-button--colored.mdl-js-button.mdl-js-ripple-effect(href=action.href)= action.label
+
+mixin list(items)
+    style.
+        .mdl-list__item-primary-content { position: relative; }
+        .mdl-chip { position: absolute; right: 1rem; }
+    ul.mdl-list
+        each item in items
+            li.mdl-list__item
+                span.mdl-list__item-primary-content
+                    span.text= item.text
+                    if item.chip
+                        span.mdl-chip: span.mdl-chip__text= item.chip
+                a.mdl-list__item-secondary-action(href=item.href): i.material-icons= item.icon

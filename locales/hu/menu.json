@@ -1,0 +1,93 @@
+{
+    "primary": {
+        "index": {
+            "path": "fooldal",
+            "label": "Főoldal"
+        },
+        "about": {
+            "path": "rolunk",
+            "label": "Rólunk"
+        },
+        "products": {
+            "path": "termekek",
+            "label": "Termékek"
+        },
+        "news": {
+            "path": "hirek",
+            "label": "Hírek"
+        },
+        "galleries": {
+            "path": "galeria",
+            "label": "Galéria"
+        },
+        "contact": {
+            "path": "kapcsolat",
+            "label": "Kapcsolat"
+        }
+    },
+    "secondary": {
+        "programs": {
+            "path": "programok",
+            "label": "Fejlesztési programok"
+        },
+        "certificates": {
+            "path": "dokumentumok",
+            "label": "Dokumentumok"
+        },
+        "jobs": {
+            "path": "allasok",
+            "label": "Állásajánlatok"
+        }
+    },
+    "locales": {
+        "en": {
+            "path": "en",
+            "label": "English"
+        },
+        "cz": {
+            "path": "cz",
+            "label": "Cesky"
+        }
+    },
+    "customer" : {
+        "hungary": {
+            "title": "Customer EDI",
+            "country": "Hungary",
+            "url": "https://ic-edi.com/ich-edi/"
+        },
+        "bohemia": {
+            "title": "Customer EDI",
+            "country": "Bohemia",
+            "url": "https://ic-edi.com/icb-edi/"
+        }
+    },
+    "slogan" : "Inno-Comp - Redefining Trust",
+    "user": {
+        "login": {
+            "path": "login",
+            "label": "Bejelentkezés"
+        },
+        "signup": {
+            "path": "signup",
+            "label": "Regisztráció"
+        },
+        "profile": {
+            "path": "admin",
+            "label": "Profil"
+        },
+        "logout": {
+            "path": "logout",
+            "label": "Kijelentkezés"
+        }
+    },
+    "other": {
+        "product-finder": {
+            "path": "termekkereso",
+            "label": "Termékkereső"
+        },
+        "404": {
+            "path": "404",
+            "label": "A keresett oldal nem található."
+        }
+    }
+}

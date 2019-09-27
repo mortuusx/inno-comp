@@ -1,0 +1,31 @@
+extends ../includes/layout.pug
+block content
+    .mdl-grid
+        .mdl-cell--3-col
+        .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--6-col: form(method='post' action='')
+            each lang in [{ n: 'hu', l: 'Magyar' }, { n: 'en', l: 'Angol' }, { n: 'cz', l: 'Cseh' }]
+                +textField({ name: lang.n, parent: 'title', label: `Cím [${lang.l}]`, required: true })
+                +textField({ name: lang.n, parent: 'type', label: `Típus [${lang.l}]` })
+                +textField({ name: lang.n, parent: 'subtitle', label: `Alcím [${lang.l}]` })
+                +textareaField({ name: lang.n, parent: 'lead', label: `Bevezető [${lang.l}]` })
+                +textareaField({ name: lang.n, parent: 'content', label: `Tartalom [${lang.l}]` })
+                +textField({ name: lang.n, parent: 'amount', label: `Megítélt támogatás [${lang.l}]` })
+                +textareaField({ name: lang.n, parent: 'info', label: `Információ [${lang.l}]` })
+            +textField({ name: 'year', label: 'Év', required: true })
+            +mediaField(document)
+            +checkboxField({ name: 'published', label: 'Published', value: 'true', isChecked: document && document.published ? document.published : 'false' })
+            if (document)
+                input(type='hidden' name='id' value=document._id)
+            +buttonField('Hozzáadás')
+        .mdl-cell--3-col
+    script.
+        document.querySelector('[type=submit]').addEventListener('click', function (e) {
+            var fields = ['lead-hu', 'lead-en', 'lead-cz', 'content-hu', 'content-en', 'content-cz'];
+            fields.forEach(function (field) {
+                var content = tinymce.get(field).getContent()
+                if (content === null || content === '') {
+                    e.preventDefault();
+                    document.querySelector('#' + field).parentNode.style.color = '#FF0000';
+                } else document.querySelector('#' + field).parentNode.style.color = 'inherit';
+            });
+        });

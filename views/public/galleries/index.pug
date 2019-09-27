@@ -1,0 +1,9 @@
+extends ../includes/layout.pug
+block content
+    main.site-content._news._side-margin
+    .tiles
+        h2.tiles__title= i18n.menu.primary.galleries.label
+        .tiles__content
+            each gallery in results
+                if (gallery.images.length)
+                    +media-mosaic({ images: gallery.images, img: gallery.cover.filename, mediaTypes: ['photo'], title: gallery.title, _id: gallery._id, count: gallery.count })

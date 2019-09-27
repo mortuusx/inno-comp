@@ -1,0 +1,107 @@
+{
+    "aboutUsHeroImg": {
+        "img": "/assets/img/about-us_hero-image.jpg"
+    },
+    "aboutUsMissionHeroImg": {
+        "img": "/assets/img/about-us_mission_hero-image.jpg"
+    },
+    "storyArticle": {
+        "title": "Historie společnosti",
+        "class": "flex",
+        "paras": [
+            {
+                "text": "Společnost Inno-Comp Hungary byla založena 1.1.1999 jako první intengrovaný PP kompaundér ve střední a východní Evropě. Nachází se v Tiszaújvárosi v Maďarsku, přibližně 180 km východně od Budapešti."
+            }, {
+                "text": "Společnost Inno-Comp Deutschland GmbH byla založena v r. 2017 k rozvoji prodejních aktivit v západní Evropě, zejména v Německu."
+            }, {
+                "text": "Společnost Inno-Comp Bohemia, která začala vyrábět v říjnu 2008 v Litvínově v České republice, zajišťuje efektivnější dodávky našim zákazníkům po celé Evropě."
+            }, {
+                "text": "Jako první krok v rámci závazki k cirkulární ekonomoce vstoupil Inno-Comp do společného podniku a v lednu 2019 založil recyklační společnost Innoga V. Díky možnosti řídit toky recyklovaných materiálů nám to umožní zajistit vysokoi kvalitu našich produktů, na kterou jsou zvyklí naši obchodní  partneři."
+            }, {
+                "text": "Oba výrobní závody jsou integrované se dvěma největšími výrobci polyolefinů ve střední a východní Evropě : se skupinou MOL v Tiszaújvárosi a Unipetrolem v Litvínově. Tato lokální blízkost dává skupině Inno-Comp a jejím zákazníkům mnoho dlouhodobých strategických výhod."
+            }, {
+                "text": "Naše prodejní aktivity jsou podporovány dobře organizovanou sítí distributorů a agentů v Evropě a na blízkém východě."
+            }, {
+                "text": "Společnost Inno-Comp Slovakia byl založen v r. 2005 v Bratislavě na Slovensku za účelem rozvoje prodeje a trhu v České republice a na Slovensku."
+            }, {
+                "text": "K uspokojení množstevních požadavků našich stávajících a potencionálních zákazníků je k dispozici kapacita až 130 tisíc tun za rok."
+            }
+        ]
+    },
+    "aboutUsImgTiles": {
+        "title": "",
+        "tiles": [{
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_1.jpg"
+        }, {
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_2.jpg"
+        }, {
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_3.jpg"
+        }]
+    },
+    "missionArticle": {
+        "title": "Mise",
+        "class": "flex",
+        "paras": [{
+            "text": "Cílem skupiny Inno-Com je stát se vůdčím kompaundérem ve střední a východní Evropě prostřednictvím trvalého vývoje produktů a rozvoje svých výrobních kapacit."
+        }, {
+            "text": "Naše společnost se trvale snaží vyhovět požadavkům na inovace, pružnost, spokojenost zákazníků a životní prostředí."
+        }]
+    },
+    "demandsTiles": {
+        "tiles": [{
+            "type": "text",
+            "title": "Inovace",
+            "paras": [{
+                "text": "Jeden z našich nejdůležitějších cílů je dosáhnout procesu \"zero-defect\", a to prostřednictvím neustálého vývoje nejen na straně výrobků, ale též v oblasti technického rozvoje. Do budoucna se též budeme soustředit na rozvoj procesů orientace na zákazníka a nákup, rovněž jako na zlepšování našich prodejních aktivity. Máme integrovaný ERP systém (plánování zdrojů společnosti), naše interní procesy jsou účinnější a můžeme mnohem snadněji uspokojovat přání našich zákazníků."
+            }]
+        }, {
+            "type": "text",
+            "title": "Pružnost",
+            "paras": [{
+                "text": "S přihlédnutím ke zkušenostem a velikosti naší společnosti jsme schopni velmi rychle reagovat na stále se měnící výzvy předkládané ekonomickým prostředím, rovněž tak jako na speciální přání a požadavky našich zákazníků."
+            }]
+        }, {
+            "type": "text",
+            "title": "Shoda",
+            "paras": [{
+                "text": "Náš cíl je stát se preferovaným dodavatelem u našich zákazníků a trvale sledovat a plnit zvyšující se požadavky trhu. Náš přístup k vyhovění požadavků trhu jde ruku v ruce s ochranou našeho životního prostředí."
+            }]
+        }, {
+            "type": "text",
+            "title": "Udržitelnost",
+            "paras": [{
+                "text": "Jako plastový kompaundér je Inno-Comp přesvědčen o zodpovědnosti, se kterou přistupujeme ke všem svým aktivitám. Naše výrobky jsou navrženy tak, aby podporovaly ekologická a sociální zlepšování. Udržitelnost je zřetelná v každé fázi životnosti našich produktů."
+            }, {
+                "text": "Snížená a umírněná spotřeba surovin, elektřiny, vody a dalších zdrojů je řídícím faktorem podpory ekologického vývoje. Udržujeme co nejnižší úroveň odpadů a znovu využíváme recyklované průmyslové typy kdykoliv je to jen možné."
+            }, {
+                "text": "Naši zaměstnanci se snaží žít udržitelností ve svých každodenních činnostech. Poskytujeme jim trvalý trénik, zdravotní a sociální podporu. Otevřený management založený na principek férovosti a rovnosti je vůdčím principem."
+            }]
+        }]
+    },
+    "socialArticle": {
+        "title": "Sociální odpovědnost",
+        "class": "",
+        "paras": [{
+            "text": "Věříme, že velkou hodnotu bychom neměli tvořit jen v obchodním životě, ale též v oblasti sociální odpovědnosti."
+        }],
+        "list": [{
+            "title": "Tradice a kultura:",
+            "text": "Tisza festival rybí polévky"
+        }, {
+            "title": "Sport:",
+            "text": "triatlon, rallye tým, strongman"
+        }, {
+            "title": "Vzdělávání:",
+            "text": "hudební škola"
+        }, {
+            "title": "Charitativní organizace:",
+            "text": "Maďarský Červený Kříž, Školka Napraforgó"
+        }, {
+            "title": "Akce pro děti a jejich rodiče:",
+            "text": "Family Day, Mikuláš"
+        }]
+    }
+}

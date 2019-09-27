@@ -1,0 +1,58 @@
+{
+    "hero": {
+        "img": "/assets/img/certificate_hero-image.jpg"
+    },
+    "intro": {
+        "paras": [{
+            "text": "In its strategic decision in 2006 Inno-Comp Kft. set the target to become an automotive supplier. In order to live up to the high requirements of automotive suppliers, our company established, introduced and operates its quality system according to standard ISO/TS 16949:2009."
+        }, {
+            "text": "Inno-Comp's basic business philosophy is its commitment to quality. Accordingly, our company built its quality assurance system according to ISO 9001 in the year of its foundation, in 1999."
+        }, {
+            "text": "The other basic philosophy of Inno-Comp is the protection of the environment and our immediate surroundings. That is why we achieved the ISO 14001 Certificate in 2002."
+        }, {
+            "text": "To eliminate the harmful effects to our health or environment we established a new organoleptic laboratory where, with the help of Technologiezentrum Wasser (TZW) in Karlsruhe, we continuously examine the quality of our products. We then receive a quarterly certificate from the above institute about the examination results."
+        }, {
+            "text": "<a href='/assets/pdf/ASZF_2018_EN.pdf' target='_blank'>General Sales and Delivery Conditions<a>"
+        }, {
+            "text": "<a href='/assets/pdf/company_policy_2018.pdf' target='_blank'>Inno-Comp Kft. - Company Policy<a>"
+        }]
+    },
+    "companyCertificates": [{
+        "companyName": "Inno-Comp Kft.",
+        "certificates": [{
+                "title": "<span>EN ISO 9001 : 2015 </span> Quality Management System ",
+                "url": "/assets/pdf/iso_9001_2015_19_11_2021_eng.pdf"
+            }, {
+                "title": "<span>IATF 16949 : 2016 </span> Quality Management System",
+                "url": "/assets/pdf/iatf_16949_2016_19_11_2021_eng.pdf"
+            }, {
+                "title": "<span>EN ISO 14001 : 2015</span> Environmental Management System",
+                "url": "/assets/pdf/iso_14001_2015_28_04_2021_eng.pdf"
+            }]
+    }, {
+        "companyName": "Inno-Comp Bohemia, s.r.o.",
+        "certificates": [{
+                "title": "<span>EN ISO 9001 : 2015 </span> Quality Management System",
+                "url": "/assets/pdf/iso_9001_2015_eng.pdf"
+            }, {
+                "title": "<span>IATF 16949 : 2016 </span> Quality Management System",
+                "url": "/assets/pdf/iatf_16949_2016_eng.pdf"
+            }, {
+                "title": "<span>EN ISO 14001 : 2015</span> Environmental Management System",
+                "url": "/assets/pdf/iso_14001_2015_cz_eng.pdf"
+            }]
+        }
+    ],
+    "text": {
+        "paras": [{
+            "text": "The majority of our products have certifications by independent external institutions (Bodycote/Exova, OÉTI, ÉMI, FDA, BGA, etc.). These documents promote sales and are needed to satisfy a number of obligatory requirements in certain markets."
+        }]
+    },
+    "external_certificates": [{
+        "title": "DVGW product list of the manufacturers: hygiene tested PP granulates and PP pipes for drinking water installations (W 270)",
+        "url": "/assets/pdf/Q1-2018 CS 4 8000 green.pdf"
+    }, {
+        "title": "Regression analysis according to ISO 9080 of the PP-R pipe grade INNOPOL CS 4-8000 ZF",
+        "url": "/assets/pdf/Exova_CS_4-8000_ZF.pdf"
+    }]
+}

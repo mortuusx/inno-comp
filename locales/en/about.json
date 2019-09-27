@@ -1,0 +1,113 @@
+{
+    "aboutUsHeroImg": {
+        "img": "/assets/img/about-us_hero-image.jpg"
+    },
+    "aboutUsMissionHeroImg": {
+        "img": "/assets/img/about-us_mission_hero-image.jpg"
+    },
+    "storyArticle": {
+        "title": "Company history",
+        "class": "flex",
+        "paras": [
+            {
+                "text": "Inno-Comp Hungary was founded on 1<span class='superscript'>st</span> January, 1999 as the first integrated polypropylene compounding company in Central Eastern Europe. It is situated in Tiszaújváros, Hungary, some 180 km east of Budapest."
+            }, {
+                "text": "Inno-Comp Deutschland GmbH was established in 2017 to boost sales activity in Western Europe, especially in Germany."
+            }, {
+                "text": "Inno-Comp Bohemia started operation in October 2008 in Litvínov, Czechia, ensuring the more efficient supply of our customers throughout Europe."
+            }, {
+                "text": "As a first step in our commitment to circular economy, Inno-Comp entered into a joint venture and founded a recycling company named InnogaV in January 2019. Through the ability to control our recycling material streams, this enables us to ensure the high quality our partners are accustomed to."
+            }, {
+                "text": "Both production sites are integrated with the two biggest polyolefin producers in the Central and Eastern European region: with MOL Petrochemicals in Tiszaújváros and Unipetrol in Litvínov. This physical proximity gives the Inno-Comp Group and its customers many long-term strategic advantages."
+            }, {
+                "text": "Our sales activity is supported by a well-organized network of distributors and agents in Europe and the Near East."
+            }, {
+                "text": "Inno-Comp Slovakia was created in 2005 in Bratislava to conduct sales and market development activities in Czechia and Slovakia."
+            }, {
+                "text": "A 130,000 ton annual nominal capacity is dedicated to meet the volume expectations of our regular and future customers."
+            }
+        ]
+    },
+    "aboutUsImgTiles": {
+        "title": "",
+        "tiles": [{
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_1.jpg"
+        }, {
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_2.jpg"
+        }, {
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_3.jpg"
+        }]
+    },
+    "missionArticle": {
+        "title": "Mission",
+        "class": "flex",
+        "paras": [
+            {
+                "text": "The aim of Inno-Comp Group is to become a determining compounding company of Central Eastern Europe through the continuous development of its products and capacities."
+            }, {
+                "text": "Our company continuously strives to meet the demands of innovation, flexibility, customer satisfaction and the environment."
+            }
+        ]
+    },
+    "demandsTiles": {
+        "tiles": [{
+            "type": "text",
+            "title": "Innovation",
+            "paras": [{
+                "text": "One of our most important targets is to achieve the zero-defect process while making continuous improvements not only in the field of product development, but also in technical development. For the future we are also endeavoured to focus on improving customer-oriented and purchasing-related processes as well as on enhancing our sales activities. We operate an integrated ERP (Enterprise Resource Planning) system, our internal processes are more efficient and we can satisfy our customers’ wishes more easily."
+            }]
+        }, {
+            "type": "text",
+            "title": "Flexibility",
+            "paras": [{
+                "text": "Considering the expertise and size of our company we are capable of reacting most quickly to the ever-changing challenges posed by the economic environment, as well as to the special wishes and requirements of our customers."
+            }]
+        }, {
+            "type": "text",
+            "title": "Conformity",
+            "paras": [{
+                "text": "Our goal is to become the preferred supplier of our customers and to continuously follow and fulfill the rising demands of the market. Our understanding of meeting market requirements goes hand-in- hand with protecting our precious environment."
+            }]
+        }, {
+            "type": "text",
+            "title": "Sustainability",
+            "paras": [
+                {
+                    "text": "Being a plastics compounder, Inno-Comp is convinced about the responsibility we take in all our activities. Our products are designed to promote ecological and social improvements. Sustainability is evident in our products’ lifecycle."
+                },
+                {
+                    "text": "Reduced and conciliatory consumption of raw materials, electricity, water and other resources is a driving factor to promote ecological improvement. We keep waste as low as possible and reuse industrial grades as often as possible."
+                },
+                {
+                    "text": "Our employees are encouraged to live sustainability in their daily activities. We provide them with continuous training, medical and social support. An open management based on the principles of fairness and equality is a guiding principle."
+                }
+            ]
+        }]
+    },
+    "socialArticle": {
+        "title": "Social responsibility",
+        "class": "flex",
+        "paras": [{
+            "text": "We believe that not only in business life should we create great values but also in terms of social responsibility."
+        }],
+        "list": [{
+            "title": "Tradition and culture:",
+            "text": "Tisza fish soup festival"
+        }, {
+            "title": "Sport:",
+            "text": "triathlon, rally team, strongman"
+        }, {
+            "title": "Education:",
+            "text": "music school"
+        }, {
+            "title": "Aid organizations:",
+            "text": "Hungarian Red Cross, Kindergarten Napraforgó"
+        }, {
+            "title": "Events for the children of our employees:",
+            "text": "family day, Santa Claus"
+        }]
+    }
+}

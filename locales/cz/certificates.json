@@ -1,0 +1,56 @@
+{
+    "hero": {
+        "img": "/assets/img/certificate_hero-image.jpg"
+    },
+    "intro": {
+        "paras": [{
+            "text": "Jako strategické rozhodnutí si v r.2006 vytýčil cíl stát se dodavatelem do automobilového průmyslu. Aby vyhověla náročným požadavkům výrobcům dílů pro automobilový průmysl, zavedla a udržuje naše společnost systém řízení kvality dle norem ISO/TS  16949:2009"
+        }, {
+            "text": "Základním principem filozofie Inno-Compu je závazek ke kvalitě. V souladu s tím vybudovala naše společnost svůj systém řízení kvality dle ISO 9001 v roce 1999, hned v roce svého založení."
+        }, {
+            "text": "Dalším aspektem filozofie Inno-Compu je ochrana životního prostředí a svého bezprostředního okolí. Díky tomu jsme získali certifikát ISO 14001 v r. 2002."
+        }, {
+            "text": "Abychom vyloučili negativní dopady na zdraví a naše prostředí, zavedli jsme novou organoleptickou laboratoř, kde ve spolupráci s institucí Technologiezentrum Wasser (TZW) v Karslruhe trvale testujeme kvalitu našich výrobků. Na testovací výsledky získáváme poté od uvedeného institutu čtvrtletní certifikát. "
+        }, {
+            "text": "<a href='/assets/pdf/ASZF_2018_CZ.pdf' target='_blank'>Všeobecné prodejní a dodací podmínky <a>"
+        }]
+    },
+    "companyCertificates": [{
+        "companyName": "Inno-Comp Kft.",
+        "certificates": [{
+                "title": "<span>EN ISO 9001 : 2015</span> Quality Management System",
+                "url": "/assets/pdf/iso_9001_2015_19_11_2021_eng.pdf"
+            }, {
+                "title": "<span>IATF 16949 : 2016</span> Quality Management System",
+                "url": "/assets/pdf/iatf_16949_2016_19_11_2021_eng.pdf"
+            }, {
+                "title": "<span>EN ISO 14001 : 2015</span> Environmental Management System",
+                "url": "/assets/pdf/iso_14001_2015_28_04_2021_eng.pdf"
+            }]
+        }, {
+        "companyName": "Inno-Comp Bohemia, s.r.o.",
+        "certificates": [{
+                "title": "<span>EN ISO 9001 : 2015</span> Quality Management System",
+                "url": "/assets/pdf/iso_9001_2015_eng.pdf"
+            }, {
+                "title": "<span>IATF 16949 : 2016</span> Quality Management System",
+                "url": "/assets/pdf/iatf_16949_2016_eng.pdf"
+            }, {
+                "title": "<span>EN ISO 14001 : 2015</span> Environmental Management System",
+                "url": "/assets/pdf/iso_14001_2015_cz_eng.pdf"
+            }]
+        }
+    ],
+    "text": {
+        "paras": [{
+            "text": "Většina našich produktů má certifikáty od nezávislých zkušebních institucí (Bodycote/Exova, OÉTI, ÉMI, FDA, BGA atd.) . Tyto dokumenty podporují prodej a jsou potřebné k uspokojení mnoha povinných požadavků určitých trhů."
+        }]
+    },
+    "external_certificates": [{
+        "title": "DVGW - Seznam PP surovin pro rozvody pitné vody Hygienické zkoušky na PP granulátech a PP trubkách u výrobců trubek (W 270)",
+        "url": "/assets/pdf/Q1-2018 CS 4 8000 green.pdf"
+    }, {
+        "title": "Regresní analýza dle ISO 9080 na PP-R trubkovém typu INNOPOL CS 4-8000 ZF",
+        "url": "/assets/pdf/Exova_CS_4-8000_ZF.pdf"
+    }]
+}

@@ -1,0 +1,148 @@
+{
+    "companyName": "Inno-Comp Kft.",
+    "country": "Magyarország",
+    "labels": {
+        "tel": "Tel.",
+        "mail": "E-mail"
+    },
+    "desc": {
+        "hq": "Központ",
+        "ps": "Gyártás",
+        "so": "Értékesítési Iroda",
+        "sr": "Értékesítési Képviselet"
+    },
+    "companyData": [{
+        "name": "Cím",
+        "value": "H-3580 Tiszaújváros Vegyészek útja 8."
+    }, {
+        "name": "Levelezési cím",
+        "value": "3581 Tiszaújváros, Pf.: 118."
+    }, {
+        "name": "Cégjegyzékszám",
+        "value": "05-09-007486"
+    }, {
+        "name": "Adószám",
+        "value": "11797881-2-05"
+    }, {
+        "name": "EU adószám",
+        "value": "HU11797881"
+    }, {
+        "name": "Tel.",
+        "values": ["+36 49 542 084"]
+    }, {
+        "name": "Fax",
+        "value": "+36 49 522 509"
+    }, {
+        "name": "E-mail",
+        "value": "innocomp@innocomp.hu"
+    }, {
+        "name": "WEB",
+        "value": "www.inno-comp.hu"
+    }, {
+        "name": "GPS",
+        "value": "N 47.91866º and E 21.03778º"
+    }],
+    "departments": [
+        { "title" : "Értékesítési és Marketing Vezető", "name": "Suhajda Sándor", "tel": [" +36 49 542 084 /126"], "mail": " suhajda.sandor@innocomp.hu" },
+        { "title" : "Értékesítési Menedzser", "name": "Gáthi Attila", "tel": [" +36 49 542 084 /117"], "mail": " gathi.attila@innocomp.hu" },
+        { "title" : "Értékesítési Mérnök", "name": "Kugler Balázs", "tel": [" +36 49 542 084 /124"], "mail": " kugler.balazs@innocomp.hu" },
+        { "title" : "Értékesítési képviselet, Lengyelország", "name": "Daniel Straczyk", "tel": [" +48 665 650 750"], "mail": " daniel.straczyk@innocomp.hu" }
+    ],
+    "subsidiaries": [{
+        "name": "Inno-Comp Bohemia, s.r.o.",
+        "country": "Csehország",
+        "map": {
+            "name": "Térkép",
+            "url": ""
+        },
+        "data": [{
+            "name": "Cím",
+            "value": "CZ-436 70 Litvínov, Záluzí 1., Unipetrol RPA, s.r.o. területe"
+        }, {
+            "name": "Tel.",
+            "value": "+420 476 163 637"
+        }, {
+            "name": "Fax",
+            "value": "+420 476 164 647"
+        }, {
+            "name": "E-mail",
+            "value": "icbohemia@innocomp.hu"
+        }, {
+            "name": "GPS",
+            "value": "N 50.56535º and E 13.60890º"
+        }],
+        "sales": {
+            "title": "Értékesítési Menedzser",
+            "name": "Vladimír Duchan",
+            "data":[{
+                "name": "Tel.",
+                "value":  "+420 736 505 161"
+            }, {
+                "name": "E-mail",
+                "value":  "vladimir.duchan@innocomp.hu"
+            }]
+        }
+    }, {
+        "name": "Inno-Comp Slovakia, s.r.o.",
+        "country": "Szlovákia",
+        "map": {
+            "name": "Térkép",
+            "url": ""
+        },
+        "data": [{
+            "name": "Cím",
+            "value": "SK-82102 Bratislava, Drieňová 34"
+        }, {
+            "name": "Tel.",
+            "value": "+420 476 163 637"
+        }, {
+            "name": "Fax",
+            "value": "+420 476 164 647"
+        }, {
+            "name": "E-mail",
+            "value": "icbohemia@innocomp.hu"
+        }],
+        "sales": {
+            "title": "Értékesítési Menedzser",
+            "name": "Vladimír Duchan",
+            "data":[{
+                "name": "Tel.",
+                "value":  "+420 736 505 161"
+            }, {
+                "name": "E-mail",
+                "value":  "vladimir.duchan@innocomp.hu"
+            }]
+        }
+    }, {
+        "name": "Inno-Comp Deutschland GmbH",
+        "country": "Németország",
+        "map": {
+            "name": "Térkép",
+            "url": ""
+        },
+        "data": [{
+            "name": "Cím",
+            "value": "D-46342 Velen, Am Bülten 54"
+        }, {
+            "name": "Tel.",
+            "value": "+49 2863 383 6333"
+        }, {
+            "name": "Fax",
+            "value": "+49 2863 383 6335"
+        }, {
+            "name": "E-mail",
+            "value":  "thomas.schmaeing@innocomp.hu"
+        }],
+        "sales": {
+            "title": "Ügyvezető",
+            "name": "Thomas Schmäing",
+            "data":[{
+                "name": "Tel.",
+                "value":  "+49 172 576 8750"
+            }, {
+                "name": "E-mail",
+                "value":  "thomas.schmaeing@innocomp.hu"
+            }]
+        }
+    }]
+}

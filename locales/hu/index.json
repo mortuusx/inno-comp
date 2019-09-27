@@ -1,0 +1,60 @@
+{
+    "hero": {
+        "title": "6.1",
+        "lead": "6.2"
+    },
+    "landingTiles": {
+        "title": "Alkalmazási területek",
+        "tiles": [{
+            "type": "action",
+            "title": "Autóipar",
+            "img": "/assets/img/landing-page_tiles-autoipar.jpg",
+            "lead": "Az INNOPOL autóipari anyagok széles körben használhatóak egy autó számos felhasználási területén, további előnyöket biztosítva ezzel a végfelhasználók számára.",
+            "action" : [{
+                "title": "Részletek",
+                "url": "/termekek#auto"
+            }, {
+                "title": "Termékkereső",
+                "url": "/termekkereso"
+            }]
+        }, {
+            "type": "action",
+            "title": "Háztartási és elektromos ipar",
+            "img": "/assets/img/landing-page_tiles-haztartas.jpg",
+            "lead": "A háztartási és elektromos eszközök előállítására szánt INNOPOL anyagok megbízhatóan használhatók kis- és nagyméretű műanyag alkatrészek gyártásához.",
+            "action": [{
+                "title": "Részletek",
+                "url": "/termekek#household"
+            }, {
+                "title": "Termékkereső",
+                "url": "/termekkereso"
+            }]
+        }, {
+            "type": "action",
+            "title": "Csövek, fittingek és lemezek",
+            "img": "/assets/img/landing-page_tiles-csovek.jpg",
+            "lead": "A csövek és lemezek gyártására kifejlesztett polipropilén homopolimer, blokk és random kopolimer alapú INNOPOL anyagok alkalmasak mind általános, mind speciális felhasználási területekre. Ezek a kompaundok lehetnek ásványi anyagokkal töltöttek (talkum, kréta, bárium-szulfát) vagy üvegszállal erősítettek.",
+            "action": [{
+                "title": "Részletek",
+                "url": "/termekek#pipes"
+            }, {
+                "title": "Termékkereső",
+                "url": "/termekkereso"
+            }]
+        }, {
+            "type": "action",
+            "title": "Nagytöltöttségű anyagok",
+            "img": "/assets/img/landing-page_tiles-nagy.jpg",
+            "lead": "Nagytöltöttségű INNOBATCH anyagaink (50-70 %-os töltőanyag-tartalom) mesterkeverékként adagolhatóak.",
+            "action": [{
+                "title": "Részletek",
+                "url": "/termekek#high"
+            }, {
+                "title": "Termékkereső",
+                "url": "/termekkereso"
+            }]
+        }]
+    },
+    "newsTilesTitle": "Hírek és események",
+    "newsTilesMore": "Összes hír"
+}

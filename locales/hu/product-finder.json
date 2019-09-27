@@ -1,0 +1,193 @@
+{
+    "title": "Termékkereső",
+    "searchPlaceholder": "Keresés terméknév alapján...",
+    "searchLabel": "Találat",
+    "searchResults": " db",
+    "searchButtonLabel": "Search",
+    "resetButtonLabel": "Visszaállítás",
+    "extrusion": "Extrúzió",
+    "injectionMoulding": "Fröccsöntés",
+    "noFill": "Töltetlen",
+    "talc": "Talkummal töltött",
+    "chalk": "Krétával töltött",
+    "glassFibre": "Üvegszállal erősített",
+    "elastomer": "Elasztomerrel modifikált",
+    "fillElastomer": "Töltött és elasztomerrel modifikált",
+    "differentFiller": "Egyéb anyaggal töltött",
+    "other": "Egyéb anyaggal töltött",
+    "selectPlaceholder": "Kérem, válasszon",
+    "formFields": [
+        {
+            "label": "Alkalmazási terület",
+            "name": "applicationField",
+            "options": [
+                {
+                    "display": "Autóipar - beltér",
+                    "value": "autoInt"
+                },
+                {
+                    "display": "Autóipar - kültér",
+                    "value": "autoExt"
+                },
+                {
+                    "display": "Autóipar - motortér",
+                    "value": "autoUnd"
+                },
+                {
+                    "display": "Háztartási és elektromos gépek",
+                    "value": "household"
+                },
+                {
+                    "display": "Csövek és fittingek, Lemezek",
+                    "value": "fitting,pipe,sheet"
+                },
+                {
+                    "display": "Csomagolás",
+                    "value": "packaging"
+                },
+                {
+                    "display": "Egyéb",
+                    "value": "other"
+                }
+            ]
+        },
+        {
+            "label": "MFR (230 °C / 2,16 kg; ISO 1133)",
+            "name": "mfr",
+            "options": [
+                {
+                    "display": "<= 2 gram/10 min.",
+                    "value": "-1<2"
+                },
+                {
+                    "display": "> 2 and <= 20 gram/10 min.",
+                    "value": "2<20"
+                },
+                {
+                    "display": "> 20 and <= 40 gram/10 min.",
+                    "value": "20<40"
+                },
+                {
+                    "display": "> 40 gram/10 min.",
+                    "value": "40<99999999"
+                }
+            ]
+        },
+        {
+            "label": "Húzási modulusz (ISO 527-1, -2)",
+            "name": "tensileModulus",
+            "options": [
+                {
+                    "display": "<= 2000 MPa",
+                    "value": "-1<2000"
+                },
+                {
+                    "display": "2001 - 4000 MPa",
+                    "value": "2000<4000"
+                },
+                {
+                    "display": "4001 - 6000 MPa",
+                    "value": "4000<6000"
+                },
+                {
+                    "display": "6001 - 10000 MPa",
+                    "value": "6000<10000"
+                },
+                {
+                    "display": "> 10000 MPa",
+                    "value": "10000<99999999"
+                }
+            ]
+        },
+        {
+            "label": "Töltőanyag",
+            "name": "fillerType",
+            "options": [
+                {
+                    "display": "Kréta",
+                    "value": "chalk"
+                },
+                {
+                    "display": "Talkum",
+                    "value": "talc"
+                },
+                {
+                    "display": "Mica",
+                    "value": "mica"
+                },
+                {
+                    "display": "Üvegszál",
+                    "value": "glassFibre"
+                },
+                {
+                    "display": "Bárium-szulfát",
+                    "value": "bariumSulphate"
+                },
+                {
+                    "display": "Elasztomer",
+                    "value": "elastomer"
+                },
+                {
+                    "display": "Farost vagy fapor",
+                    "value": "woodFibre"
+                }
+            ]
+        },
+        {
+            "label": "Töltőanyag tartalma",
+            "name": "fillerContent",
+            "options": [
+                {
+                    "display": "< = 10 %",
+                    "value": "-1<10"
+                },
+                {
+                    "display": "11 - 20 %",
+                    "value": "11<20"
+                },
+                {
+                    "display": "21 - 30 %",
+                    "value": "21<30"
+                },
+                {
+                    "display": "31 - 40 %",
+                    "value": "31<40"
+                },
+                {
+                    "display": "41 - 50 %",
+                    "value": "41<50"
+                },
+                {
+                    "display": "51 - 60 %",
+                    "value": "51<60"
+                },
+                {
+                    "display": "> 60 %",
+                    "value": "60<99999999"
+                }
+            ]
+        },
+        {
+            "label": "Charpy ütőszilárdság (bemetszett, 23°C)",
+            "name": "n23",
+            "options": [
+                {
+                    "display": "<= 10 kJ/m2",
+                    "value": "-1<10"
+                },
+                {
+                    "display": "> 10 and <= 20 kJ/m2",
+                    "value": "10<20"
+                },
+                {
+                    "display": "> 20 and <= 40 kJ/m2",
+                    "value": "20<40"
+                },
+                {
+                    "display": "> 40 kJ/m2",
+                    "value": "40<99999999"
+                }
+            ]
+        }
+    ]
+}

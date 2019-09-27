@@ -1,0 +1,107 @@
+{
+    "aboutUsHeroImg": {
+        "img": "/assets/img/about-us_hero-image.jpg"
+    },
+    "aboutUsMissionHeroImg": {
+        "img": "/assets/img/about-us_mission_hero-image.jpg"
+    },
+    "storyArticle": {
+        "title": "Cégtörténet",
+        "class": "flex",
+        "paras": [
+            {
+                "text": "Az Inno-Comp Kft-t 1999. január 1-én alapították Közép-Kelet-Európa első integrált polipropilén kompaundálójaként. A cég Budapesttől mintegy 180 km-re keletre, Tiszaújvárosban található."
+            }, {
+                "text": "Az Inno-Comp Deutschland 2017-ben került alapításra, hogy fokozzuk kereskedelmi aktivitásunkat Nyugat-Európában, kiváltképp Németországban."
+            }, {
+                "text": "Az Inno-Comp Bohemia 2008 októberében kezdte meg működését a csehországi Litvínovban, biztosítva ezzel vevőink hatékonyabb kiszolgálását Európa-szerte."
+            }, {
+                "text": "A környezetünk védelme iránti elkötelezettségünkből adódóan 2019 januárjában társtulajdonosként megalakítottuk az InnogaV elnevezésű, regranulátumokat előállító céget. Az újrahasznosított anyagáramlat felügyelete lehetőséget nyújt számunkra, hogy a korábban megszokott minőségi szinttel rendelkező termékeket biztosítsunk partnereinknek."
+            }, {
+                "text": "A két termelőegység szoros fizikai integrációban áll a közép-kelet-európai régió két jelentős poliolefin gyártójával, a tiszaújvárosi MOL Petrolkémiával és a litvínovi Unipetrollal. Ez a fizikai közelség számos hosszú távú stratégiai előnyt nyújt az Inno-Comp Csoport és vevőköre számára egyaránt."
+            }, {
+                "text": "Kereskedelmi tevékenységünket segíti az Európában és a Közel-Keleten kiépített, jól szervezett disztribútori és ügynöki hálózat."
+            }, {
+                "text": "Az Inno-Comp Slovakia 2005-ben alakult Pozsonyban azzal a céllal, hogy kereskedelmi és piacbővítési tevékenységet végezzen Csehország és Szlovákia területén. "
+            }, {
+                "text": "Évi 130.000 tonna névleges kapacitás áll rendelkezésre meglévő és új partnereink mennyiségi igényeinek kielégítésére."
+            }
+        ]
+    },
+    "aboutUsImgTiles": {
+        "title": "",
+        "tiles": [{
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_1.jpg"
+        }, {
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_2.jpg"
+        }, {
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_3.jpg"
+        }]
+    },
+    "missionArticle": {
+        "title": "Küldetés",
+        "class": "flex",
+        "paras": [{
+            "text": "Az Inno Comp Csoport célja, hogy termékeinek és kapacitásának folyamatos fejlesztésével, bővítésével Közép-Kelet-Európa meghatározó kompaundáló cégévé váljon."
+        }, {
+            "text": "Cégünk folyamatosan arra törekszik, hogy megfeleljen az innováció, a flexibilitás, a vevői elégedettség és a környezetvédelem területén előírt elvárásoknak."
+        }]
+    },
+    "demandsTiles": {
+        "tiles": [{
+            "type": "text",
+            "title": "Innováció",
+            "paras": [{
+                "text": "Egyik legfontosabb célkitűzésünk a hibamentes működés elérése, miközben folyamatosan tökéletesítéseket végzünk nemcsak a termékfejlesztés, de a műszaki fejlesztés területein is. A jövőre nézve arra is törekszünk, hogy hangsúlyt fektessünk a vevő- és beszerzés-orientált folyamatok fejlesztésére, valamint az értékesítési tevékenység támogatására. Integrált vállalat-irányítási (ERP) rendszert működtetünk, így belső folyamataink hatékonyabbak, ezáltal könnyebben tudjuk teljesíteni vevőink kívánságait."
+            }]
+        }, {
+            "type": "text",
+            "title": "Rugalmasság",
+            "paras": [{
+                "text": "A gazdasági környezet okozta változásokra és kihívásokra, továbbá a vevői kérésekre, illetve igényekre, szaktudásunkból és méretünkből adódóan, a lehető leggyorsabban reagálunk."
+            }]
+        }, {
+            "type": "text",
+            "title": "Megfelelőség",
+            "paras": [{
+                "text": "Célunk vevőink elsődleges beszállítójóvá válni, valamint hogy folyamatosan kövessük és kielégítsük a piac növekvő igényeit. Mindezt pedig úgy tesszük, hogy a piac igényeinek kielégítése összhangban legyen értékes környezetünk megóvásával."
+            }]
+        }, {
+            "type": "text",
+            "title": "Fenntarthatóság",
+            "paras": [{
+                "text": "Műanyagipari kompaundálóként az Inno-Comp tudatában van  annak a felelősségnek, amelyet tevékenységeink során vállalunk. Termékeinket úgy terveztük, hogy támogassák az ökológiai és társadalmi fejlődési lehetőségeket. A fenntarthatóság egyértelmű szempont termékeink életciklusában."
+            }, {
+                "text": "Nyersanyagok, elektromos áram, víz és egyéb források csökkentett és megegyezést kereső felhasználása meghatározó tényező az ökológiai fejlődés elősegítéséhez. Amennyire csak lehet, alacsonyan tartjuk a selejtszintet, és a lehetőségekhez mérten újrahasznosítunk."
+            }, {
+                "text": "Munkavállalóinkat arra bátorítjuk, hogy éljék meg a fenntarthatóságot mindennapi tevékenységeikben. Folyamatosan nyújtunk számukra képzéseket, egészségügyi és szociális támogatásokat. Vezérelv a becsületesség és egyenlőség alapelveire alapozott nyitott menedzsment."
+            }]
+        }]
+    },
+    "socialArticle": {
+        "title": "Társadalmi felelősség",
+        "class": "flex",
+        "paras": [{
+            "text": "Hisszük, hogy nemcsak az üzleti életben kell nagyszerű értékeket teremtenünk, hanem a társadalmi felelősség-vállalás területén is."
+        }],
+        "list": [{
+            "title": "Hagyomány és kultúra:",
+            "text": "Tiszai halászléfőző fesztivál"
+        }, {
+            "title": "Sport:",
+            "text": "triatlon, ralli csapat, strongman"
+        }, {
+            "title": "Oktatás:",
+            "text": "zeneiskola"
+        }, {
+            "title": "Segélyszervezetek:",
+            "text": "Magyar Vöröskereszt, Napraforgó Óvoda"
+        }, {
+            "title": "Rendezvények munkavállalóink gyermekeinek:",
+            "text": "családi nap, Mikulás"
+        }]
+    }
+}

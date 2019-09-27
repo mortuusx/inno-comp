@@ -1,0 +1,193 @@
+{
+    "title": "Product finder",
+    "searchPlaceholder": "Keresés terméknév alapján...",
+    "searchLabel": "Results",
+    "searchResults": "",
+    "searchButtonLabel": "Search",
+    "resetButtonLabel": "Reset",
+    "extrusion": "Extrusion",
+    "injectionMoulding": "Injection moulding",
+    "noFill": "Unfilled",
+    "talc": "Talc filled",
+    "chalk": "Chalk filled",
+    "glassFibre": "Glass fibre reinforced",
+    "elastomer": "Elastomer modified",
+    "fillElastomer": "Filled and elastomer modified",
+    "differentFiller": "Other fillers",
+    "other": "Other fillers",
+    "selectPlaceholder": "Select",
+    "formFields": [
+        {
+            "label": "Application field",
+            "name": "applicationField",
+            "options": [
+                {
+                    "display": "Automotive - interior",
+                    "value": "autoInt"
+                },
+                {
+                    "display": "Automotive - exterior",
+                    "value": "autoExt"
+                },
+                {
+                    "display": "Automotive - under-the-hood",
+                    "value": "autoUnd"
+                },
+                {
+                    "display": "Household and Electrical",
+                    "value": "household"
+                },
+                {
+                    "display": "Pipes and fittings, Sheets",
+                    "value": "fitting,pipe,sheet"
+                },
+                {
+                    "display": "Packaging",
+                    "value": "packaging"
+                },
+                {
+                    "display": "Other",
+                    "value": "other"
+                }
+            ]
+        },
+        {
+            "label": "MFR (230 °C / 2.16 kg; ISO 1133)",
+            "name": "mfr",
+            "options": [
+                {
+                    "display": "<= 2 gram/10 min.",
+                    "value": "-1<2"
+                },
+                {
+                    "display": "> 2 and <= 20 gram/10 min.",
+                    "value": "2<20"
+                },
+                {
+                    "display": "> 20 and <= 40 gram/10 min.",
+                    "value": "20<40"
+                },
+                {
+                    "display": "> 40 gram/10 min.",
+                    "value": "40<99999999"
+                }
+            ]
+        },
+        {
+            "label": "Tensile modulus (ISO 527-1, -2)",
+            "name": "tensileModulus",
+            "options": [
+                {
+                    "display": "<= 2000 MPa",
+                    "value": "-1<2000"
+                },
+                {
+                    "display": "2001 - 4000 MPa",
+                    "value": "2000<4000"
+                },
+                {
+                    "display": "4001 - 6000 MPa",
+                    "value": "4000<6000"
+                },
+                {
+                    "display": "6001 - 10000 MPa",
+                    "value": "6000<10000"
+                },
+                {
+                    "display": "> 10000 MPa",
+                    "value": "10000<99999999"
+                }
+            ]
+        },
+        {
+            "label": "Filler type",
+            "name": "fillerType",
+            "options": [
+                {
+                    "display": "Chalk",
+                    "value": "chalk"
+                },
+                {
+                    "display": "Talc",
+                    "value": "talc"
+                },
+                {
+                    "display": "Mica",
+                    "value": "mica"
+                },
+                {
+                    "display": "Glass fibre",
+                    "value": "glassFibre"
+                },
+                {
+                    "display": "Barium Sulphate",
+                    "value": "bariumSulphate"
+                },
+                {
+                    "display": "Elastomer",
+                    "value": "elastomer"
+                },
+                {
+                    "display": "Wood fibre or wood powder",
+                    "value": "woodFibre"
+                }
+            ]
+        },
+        {
+            "label": "Filler content",
+            "name": "fillerContent",
+            "options": [
+                {
+                    "display": "< = 10 %",
+                    "value": "-1<10"
+                },
+                {
+                    "display": "11 - 20 %",
+                    "value": "11<20"
+                },
+                {
+                    "display": "21 - 30 %",
+                    "value": "21<30"
+                },
+                {
+                    "display": "31 - 40 %",
+                    "value": "31<40"
+                },
+                {
+                    "display": "41 - 50 %",
+                    "value": "41<50"
+                },
+                {
+                    "display": "51 - 60 %",
+                    "value": "51<60"
+                },
+                {
+                    "display": "> 60 %",
+                    "value": "60<99999999"
+                }
+            ]
+        },
+        {
+            "label": "Charpy impact strength (notched, 23°C)",
+            "name": "n23",
+            "options": [
+                {
+                    "display": "<= 10 kJ/m2",
+                    "value": "-1<10"
+                },
+                {
+                    "display": "> 10 and <= 20 kJ/m2",
+                    "value": "10<20"
+                },
+                {
+                    "display": "> 20 and <= 40 kJ/m2",
+                    "value": "20<40"
+                },
+                {
+                    "display": "> 40 kJ/m2",
+                    "value": "40<99999999"
+                }
+            ]
+        }
+    ]
+}

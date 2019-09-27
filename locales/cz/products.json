@@ -1,0 +1,170 @@
+{
+    "details": {
+        "injectionMouldings": {
+            "fitting": "Fitting",
+            "packaging": "Packaging",
+            "household": "Household Appliances",
+            "autoInt": "Auto / Interior",
+            "autoExt": "Auto / Exterior",
+            "autoUnd": "Auto / Under the hood",
+            "other": "Others"
+        },
+        "extrusions": {
+            "pipe": "Pipe",
+            "sheet": "Sheet"
+        }
+    },
+    "productArticle": {
+        "title": "Produkty",
+        "class": "flex",
+        "paras": [
+            {
+                "text": "Portfolio produktů tvoří značky INNOPOL a INNOBATCH a zahrnuje základní typy kompaundů na bázi PP homopolymeru, jakož i blokového a random kopolymeru, které mohou být naplněny minerálními plnivy anebo vyztuženy skleněnými vlákny či elastomerem."
+                },{
+                "text": "Naše kompaundy \"šité na míru\" mají zlepšené fyzikální vlastnosti a jsou vhodné pro výrobu silných, tuhých, rázuvzdorných, mrazuvzdorných, tlakově a chemicky odolných výrobků. "
+                },{
+                "text": "Vedle PP kompaundů vyrábíme též speciální produkty na bázi PS, PA, PE, ABS a dalších druzích plastů."
+                },{
+                "text": "S našimi speciálními IQ produkty můžeme splnit požadavky našich zákazníků na recyklované materiály. Pro nejrůznější aplikační odvětví je dostupná škála těchto našich typů. Všechny naše IQ typy splňují standardy vysoké kvality stejně jako naše originální produkty."
+                },{
+                "text": "Typy s retardéry hoření, UV stabilizované typy, jakož i typy odolné proti poškrábání či typy se sníženým odérem jsou rovněž připraveny splnit zákaznické požadavky, vč. OEM  a \"TIER 1\" a \"TIER 2\" dodavatelů do automobilového průmyslu,"
+                },{
+                "text": "Pokusný vývoj se rozvíjí na stávajících znalostech získaných z výzkumu a zkušeností a je určený k výrobě nových materiálů. "
+
+            }
+        ]
+    },
+    "areasTiles": {
+        "title": "Aplikační oblasti",
+        "tiles": {
+            "lines": [[{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-automotive.jpg"
+            }, {
+                "type": "list",
+                "title": "Automotive",
+                "hash": "auto",
+                "lead": [{
+                    "text": "Materiály INNOPOL pro automobilové aplikace jsou široce využívány v mnoha aplikačních oblastech v automobilech a poskytují další výhody konečným spotřebitelům."
+                }],
+                "list": [{
+                    "title": "Pod kapotou",
+                    "text": "Pouzdra světlometů , skříně autobaterií, dílů vzduchotechniky, kabelových kanálů, krytů motoru"
+                }, {
+                    "title": "Interiér",
+                    "text": "dveřní panely, sluneční clony, autopotahy, mřížky do vzduchotechniky, kryt střed.sloupku, konzole, odkládací přihrádky, HVAC díly, přístrojové desky"
+                }, {
+                    "title": "Exteriér",
+                    "text": "nárazníky a jejich části, mřížky chladičů, kryty zavazadlového prostoru, poklice kol, části blatníků"
+                }],
+                "action": [{
+                    "title": "Vyhledávač produktů",
+                    "url": "/cz_termekkereso"
+                }, {
+                    "title": "Zadat katalog (pdf)",
+                    "url": ""
+                }]
+            }], [{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-household.jpg"
+            }, {
+                "type": "list",
+                "title": "Potřeby pro domácnost a elektrospotřebiče",
+                "hash": "household",
+                "lead": [{
+                    "text": "INNOPOL produkty pro potřeby jsou vhodné pro výrobu malých i velkých plastových dílů prodomácnost a elektrospotřebiče."
+                }],
+                "list": [{
+                    "title": "Zařízení pro domácnost",
+                    "text": "pračky, myčky, sušičky, lednice, vysavače, žehličky, průmyslové vysavače"
+                }, {
+                    "title": "Části elektrických zařízení",
+                    "text": "díly fénů, lamp a svítidel, příslušenství, součásti spínacích zařízení a vypínačů, zásuvek, kryty  sekaček na trávu"
+                }, {
+                    "title": "Nástroje pro kutily",
+                    "text": "pouzdra, plastové díly s vloženým kovovými vložkami"
+
+                }],
+                "action": [{
+                    "title": "Vyhledávač produktů",
+                    "url": "/cz_termekkereso"
+                }, {
+                    "title": "Zadat katalog (pdf)",
+                    "url": "/assets/pdf/InnoComp_brochure_A4__2017-10-10__preview_spread__Final_Small.pdf"
+                }]
+            }], [{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-pipes.jpg"
+            }, {
+                "type": "list",
+                "title": "Trubky a fitingy, desky",
+                "hash": "pipes",
+                "lead": [{
+                    "text": "Materiály INNOPOL na bázi homopolymeru, blokového a random kopolymeru, určené pro výrobu trubek a desek, mohou být použity v obecných aplikacích, jakož i speciálních oblastech. Tyto kompaundy mohou být plněny minerálními plnivy (talek, křída, síran barnatý) nebo vyztuženy skleněnými vlákny."
+                }, {
+                    "text": "Primární aplikační oblasti:"
+                }],
+                "list": [{
+                    "text": "vnitřní a venkovní kanalizační rozvody"
+                }, {
+                    "text": "potrubní rozvody a fitingy v chemických provozech"
+                }, {
+                    "text": "tlakové trubky, fitingy a ostatní komponenty pro rozvody pitné vody a vytápění"
+                }, {
+                    "text": "trubky s vysokou rázovou odolností"
+                }, {
+                    "text": "trubky s retardéry hoření"
+                }, {
+                    "text": "korugované trubky"
+                }, {
+                    "text": "koextrudované trubky"
+                }, {
+                    "text": "desky pro velké zásobníky "
+                }, {
+                    "text": "profily"
+                }],
+                "action": [{
+                    "title": "Vyhledávač produktů",
+                    "url": "/cz_termekkereso"
+                }, {
+                    "title": "Zadat katalog (pdf)",
+                    "url": "/assets/pdf/InnoComp_brochure_A4__2017-10-10__preview_spread__Final_Small.pdf"
+                }]
+            }], [{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-high.jpg"
+            }, {
+                "type": "list",
+                "title": "Materiály s vysokým obsahem plniva",
+                "hash": "high",
+                "lead": [{
+                    "text": "Materiály INNOBATCH s vysokým obsahem plniva (obsah plniva 50-70 %) mohou být použity jako masterbatche."
+                }, {
+                    "text": "Tyto kompaundy jsou z pohledu zpracovatele polotovarem a umožňují zpracovateli určit optimální dávkování během zpracování. Tak lze docílit významné snížení nákladů, aniž by došlo ke snížení kvality."
+                }, {
+                    "text": "Tyto typy (na bázi polypropylénu či polyetylénu) jsou zejména doporučeny pro oblast potravinářských obalů a výrobků obalového průmyslu, ale moho být použity též při výrobě potřeb pro domácnost, venkovního nábytku či jiných aplikacích."
+                }, {
+                    "text": "Aplikace:"
+                }],
+                "list": [{
+                    "text": "desky a profily"
+                }, {
+                    "text": "vícevrstvé desky"
+                }, {
+                    "text": "skladovací kontejnery a boxy"
+                }, {
+                    "text": "zahradní nábytek"
+                }, {
+                    "text": "potravinářské obaly (dobře svařitelné a prodyšné fólie)"
+                }],
+                "action": [{
+                    "title": "Vyhledávač produktů",
+                    "url": "/cz_termekkereso"
+                }, {
+                    "title": "Zadat katalog (pdf)",
+                    "url": "/assets/pdf/InnoComp_brochure_A4__2017-10-10__preview_spread__Final_Small.pdf"
+                }]
+            }]]
+        }
+    }
+}

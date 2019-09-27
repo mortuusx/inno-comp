@@ -1,0 +1,42 @@
+include ./mixins.pug
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title Admin
+        link(rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons')
+        link(rel='stylesheet' href='https://code.getmdl.io/1.3.0/material.indigo-pink.min.css')
+        link(rel='stylesheet' href='/admin-assets/css/style.css')
+        style.
+            .mdl-grid form { padding: 2rem 0; }
+            .mdl-grid form .mdl-grid { width: 100%; }
+            .mdl-grid form fieldset { position: relative; padding: 3.5rem 1rem 1rem 1rem; background: #f4f4f4; }
+            .mdl-grid form fieldset legend { position: absolute; top: 1rem; left: 1rem; font-weight: 700; }
+            .mdl-grid.button-row { text-align: right; }
+    body
+        .mdl-layout.mdl-js-layout.mdl-color--grey-100
+            include header.pug
+            main.mdl-layout__content
+                block content
+            if (message)
+                .message(message show)= message
+        
+        script(src='/admin-assets/js/tinymce/tinymce.min.js')
+        script(src='/admin-assets/js/media-modal.js')
+        script(src='/admin-assets/js/message.js')
+        script.
+            document.addEventListener('mdl-componentupgraded', function(e) {
+                if (typeof e.target.MaterialLayout !== 'undefined') {
+                    tinymce.init({
+                        selector: '.editor',
+                        //inline: true
+                        plugins: 'link lists',
+                        branding: false,
+                        menubar: false,
+                        toolbar: 'undo redo | bold italic | link | bullist numlist | removeformat',
+                        statusbar: false,
+                        entity_encoding: 'raw'
+                    });
+                }
+            });
+        script(defer src='https://code.getmdl.io/1.3.0/material.min.js')

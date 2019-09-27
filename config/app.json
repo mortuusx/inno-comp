@@ -1,0 +1,22 @@
+{
+    "APPLICATION_NAME": "Inno-Comp",
+    "UPLOAD_FOLDER": "public/public-assets/uploads/tmp/",
+    "ADMIN_VIEWS_PREFIX": "admin/",
+    "PUBLIC_VIEWS_PREFIX": "public/",
+    "ARTICLE_DEFAULT_IMAGE_URL": "http://rdjpg.com/800/800",
+    "COOKIE_NAME": "icLanguage",
+    "STATIC_PAGES": ["about", "contact", "certificates", "products", "404"],
+    "PRODUCT": {
+        "EXTRUSIONS": ["pipe", "sheet"],
+        "INJECTION_MOULDINGS": ["fitting", "packaging", "household", "autoInt", "autoExt", "autoUnd", "other"],
+        "POLYMER_TYPES": ["PP Homopolymer", "PP Block-Copolymer", "PP Homopolymer-Copolymer blend", "PP Random Copolymer", "High Density Polyethylen", "Polystyrene"],
+        "POLYMER_SHORT": {
+            "PP Homopolymer": "PPH",
+            "PP Block-Copolymer": "PPB",
+            "PP Homopolymer-Copolymer blend": "PPH/PPB",
+            "PP Random Copolymer": "PPR",
+            "High Density Polyethylen": "HDPE",
+            "Polystyrene": "PS"
+        }
+    }
+}

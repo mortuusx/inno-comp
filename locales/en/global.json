@@ -1,0 +1,63 @@
+{
+    "meta": {
+        "title": "Inno-Comp - Redefining Trust",
+        "description": "Inno-Comp Hungary is the first integrated polypropylene compounding company in Central Eastern Europe.",
+        "image": "/assets/img/social/global-cover.jpg",
+        "twitterHandle": "@innocomp",
+        "siteName": "Inno-Comp",
+        "favicons": {
+            "icons":
+                ["16", "24", "32", "48", "57", "64", "72", "76", "96", "114", "120", "128", "144", "152", "180", "195", "196", "228", "270", "558", "558x270"],
+            "apple":
+                ["57", "60", "72", "76", "114", "120", "144", "152", "180"],
+            "ms": [
+                {
+                    "name": "msapplication-TileImage",
+                    "size": "144"
+                },
+                {
+                    "name": "msapplication-square70x70logo",
+                    "size": "70"
+                },
+                {
+                    "name": "msapplication-square150x150logo",
+                    "size": "150"
+                },
+                {
+                    "name": "msapplication-wide310x150logo",
+                    "size": "310x150"
+                },
+                {
+                    "name": "msapplication-square310x310logo",
+                    "size": "310"
+                }
+            ]
+        }
+    },
+    "largeTiles": {
+        "tiles": [{
+            "type": "large",
+            "title": "We deliver ready-to-use, tailor-made compounds",
+            "img": "/assets/img/productsearch-banner-bg.jpg",
+            "lead": "Take a look at our portfolio",
+            "action": [{
+                "title": "Product finder",
+                "url": "/product-finder"
+            }, {
+                "title": "Details",
+                "url": "/products"
+            }]
+        }]
+    },
+    "catalog": {
+        "title": "",
+        "download": "Download our catalogue",
+        "cta": "/assets/pdf/InnoComp_brochure_A4__2017-10-10__preview_spread__Final_Small.pdf"
+    },
+    "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "gallery": {
+        "open": "Open gallery",
+        "picture": "picture",
+        "pictures": "pictures"
+    }
+}

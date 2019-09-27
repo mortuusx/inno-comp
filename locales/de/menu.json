@@ -1,0 +1,97 @@
+{
+    "primary": {
+        "index": {
+            "path": "de_fooldal",
+            "label": "Home"
+        },
+        "about": {
+            "path": "de_rolunk",
+            "label": "Über uns"
+        },
+        "products": {
+            "path": "de_termekek",
+            "label": "Produkte"
+        },
+        "news": {
+            "path": "de_hirek",
+            "label": "Neuigkeiten"
+        },
+        "galleries": {
+            "path": "de_galeria",
+            "label": "Gallerie"
+        },
+        "contact": {
+            "path": "de_kapcsolat",
+            "label": "Kontakt"
+        }
+    },
+    "secondary": {
+        "certificates": {
+            "path": "de_tanusitvanyok",
+            "label": "Unterlagen"
+        },
+        "jobs": {
+            "path": "de_allasok",
+            "label": "Stellenangebote"
+        }
+    },
+    "locales": {
+        "hu": {
+            "path": "hu",
+            "label": "Magyar"
+        },
+        "cz": {
+            "path": "cz",
+            "label": "Cesky"
+        },
+		"en": {
+            "path": "en",
+            "label": "English"
+        },
+		"de": {
+            "path": "de",
+            "label": "Deutsch"
+        }
+    },
+    "customer" : {
+        "hungary": {
+            "title": "Customer EDI",
+            "country": "Hungary",
+            "url": "https://ic-edi.com/ich-edi/"
+        },
+        "bohemia": {
+            "title": "Customer EDI",
+            "country": "Bohemia",
+            "url": "https://ic-edi.com/icb-edi/"
+        }
+    },
+    "slogan" : "Inno-Comp - Redefining Trust",
+    "user": {
+        "login": {
+            "path": "login",
+            "label": "Log in"
+        },
+        "signup": {
+            "path": "signup",
+            "label": "Sign up"
+        },
+        "profile": {
+            "path": "admin",
+            "label": "Profile"
+        },
+        "logout": {
+            "path": "logout",
+            "label": "Log out"
+        }
+    },
+    "other": {
+        "product-finder": {
+            "path": "de_termekkereso",
+            "label": "Produktfinder"
+        },
+        "404": {
+            "path": "404",
+            "label": "Page not found."
+        }
+    }
+}

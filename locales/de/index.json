@@ -1,0 +1,60 @@
+{
+    "hero": {
+        "title": "6.1",
+        "lead": "6.2"
+    },
+    "landingTiles": {
+        "title": "Anwendungsgebiete",
+        "tiles": [{
+            "type": "action",
+            "title": "Automobil",
+            "img": "/assets/img/landing-page_tiles-autoipar.jpg",
+            "lead": "INNOPOL Typen werden in vielen Autoteilen verwendet und bieten zahlreiche Vorteile für den Endverbraucher.",
+            "action": [{
+                "title": "Details",
+                "url": "/de_termekek#auto"
+            }, {
+                "title": "Produktfinder",
+                "url": "/de_termekkereso"
+            }]
+        }, {
+            "type": "action",
+            "title": "Haushalts- und Elektrogeräte",
+            "img": "/assets/img/landing-page_tiles-haztartas.jpg",
+            "lead": "INNOPOL Typen werden für kleine und große Teile verwendet.",
+            "action": [{
+                "title": "Details",
+                "url": "/de_termekek#household"
+            }, {
+                "title": "Produktfinder",
+                "url": "/de_termekkereso"
+            }]
+        }, {
+            "type": "action",
+            "title": "Rohre, Fittinge und Platten",
+            "img": "/assets/img/landing-page_tiles-csovek.jpg",
+            "lead": "Innopol PP Homo, Block und Randomcopolymer Typen können für allgemeine und spezielle Anwendungen für Rohre und Platten verwendet werden. Die Compounds können mineralgefüllt (Talk, Calciumcarbonat, Bariumsulphat) oder glasfaserverstärkt sein.",
+            "action": [{
+                "title": "Details",
+                "url": "/de_termekek#pipes"
+            }, {
+                "title": "Produktfinder",
+                "url": "/de_termekkereso"
+            }]
+        }, {
+            "type": "action",
+            "title": "Hochgefüllte Typen",
+            "img": "/assets/img/landing-page_tiles-nagy.jpg",
+            "lead": "Die hochgefüllten (50% bis 70% gefüllt) INNOBATCH Typen können als Masterbatch verwendet werden.",
+            "action": [{
+                "title": "Details",
+                "url": "/de_termekek#high"
+            }, {
+                "title": "Produktfinder",
+                "url": "/de_termekkereso"
+            }]
+        }]
+    },
+    "newsTilesTitle": "Neuigkeiten und Veranstaltungen",
+    "newsTilesMore": "Zeige alles"
+}

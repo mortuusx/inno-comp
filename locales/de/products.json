@@ -1,0 +1,170 @@
+{
+    "details": {
+        "injectionMouldings": {
+            "fitting": "Fitting",
+            "packaging": "Packaging",
+            "household": "Household Appliances",
+            "autoInt": "Auto / Interior",
+            "autoExt": "Auto / Exterior",
+            "autoUnd": "Auto / Under the hood",
+            "other": "Others"
+        },
+        "extrusions": {
+            "pipe": "Pipe",
+            "sheet": "Sheet"
+        }
+    },
+    "productArticle": {
+        "title": "Produkte",
+        "class": "flex",
+        "paras": [
+            {
+                "text": "Unsere Typen sind unter den Marken INNOPOL und INNOBATCH bekannt. Wir produzieren Compounds aus Polypropylen Homopolymer, Block- und Random-Copolymer. Sie sind gefüllt mit Mineralien oder verstärkt mit z. B. Glasfaser oder sind elastomermodifiziert."
+                },{
+                "text": "Compounds werden kundenspezifisch entwickelt und produziert. Sie haben herausragende physikalische Eigenschaften."
+                },{
+                "text": "Neben PP Compounds werden spezielle Compounds aus PS, HIPS, PA, ABS und andere hergestellt."
+                },{
+                "text": "Mit unseren speziellen IQ-Materialien können wir die Anforderungen unserer Kunden an recycelte Materialien erfüllten. Für verschiedene Anwendungsbereiche stehen Typen zur Verfügung. Alle unsere IQ-Typen erfüllen die gleichen hohen Qualitätsstandards wie unsere Compounds auf der Basis von Neuware."
+                },{
+                "text": "Unsere Kunden sind OEM’s, Tier-1 und Tier-2 Lieferanten in der Automobilindustrie, Hersteller von Haushalts- und Elektrogeräten, sowie von Rohren, Fittingen, Platten und Verpackungen. Unsere Typen sind flammschutzhemmend, UV stabilisiert, kratzbeständig, geruchsneutral usw. je nach Kundenwunsch ausgerüstet."
+                },{
+                "text": "Unsere Anwendungstechnik baut auf dem Wissen von Forschung und Entwicklung auf mit Blick auf neue Materialien."
+
+            }
+        ]
+    },
+    "areasTiles": {
+        "title": "Anwendungsgebiete",
+        "tiles": {
+            "lines": [[{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-automotive.jpg"
+            }, {
+                "type": "list",
+                "title": "Automobil",
+                "hash": "auto",
+                "lead": [{
+                    "text": "INNOPOL Typen werden in vielen Autoteilen verwendet und bieten zahlreiche Vorteile für den Endverbraucher."
+                }],
+                "list": [{
+                    "title": "Motorraum",
+                    "text": "Lampengehäuse, Batterieverkleidungen, Belüftung, Kabelkanäle, Motorraumverkleidungen"
+                }, {
+                    "title": "Innenraum",
+                    "text": "Türverkleidungen, Sonnenblenden, Sitzverkleidungen, Konsolen, Handschuhfach, Teile der Klimaanlage, Instrumententafel"
+                }, {
+                    "title": "Außenanwendungen",
+                    "text": "Stoßfängerteile, grills, trims, boot casings, hubcaps, mudguard parts"
+                }],
+                "action": [{
+                    "title": "Produktfinder",
+                    "url": "/de_termekkereso"
+                }, {
+                    "title": "Download Produktkatalog (pdf)",
+                    "url": ""
+                }]
+            }], [{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-household.jpg"
+            }, {
+                "type": "list",
+                "title": "Haushalts- und Elektrogeräte",
+                "hash": "household",
+                "lead": [{
+                    "text": "INNOPOL Typen werden für kleine und große Teile verwendet."
+                }],
+                "list": [{
+                    "title": "Haushaltsgeräte",
+                    "text": "Waschmaschinen, Geschirrspüler, Trockner, Kühlschränke, Staubsauger, Bügeleisen, Industriereiniger"
+                }, {
+                    "title": "Elektrogeräte",
+                    "text": "Haartrockner, Lampengehäuse, Leuchtkörper, Schalter, Steckdosen, Rasenmähergehäuse"
+                }, {
+                    "title": "Heimwerkergeräte",
+                    "text": "Gehäuse, Kleinteile"
+
+                }],
+                "action": [{
+                    "title": "Produktfinder",
+                    "url": "/de_termekkereso"
+                }, {
+                    "title": "Download Produktkatalog (pdf)",
+                    "url": "/assets/pdf/InnoComp_brochure_A4__2017-10-10__preview_spread__Final_Small.pdf"
+                }]
+            }], [{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-pipes.jpg"
+            }, {
+                "type": "list",
+                "title": "Rohre, Fittinge und Platten",
+                "hash": "pipes",
+                "lead": [{
+                    "text": "Innopol PP Homo, Block und Randomcopolymer Typen können für allgemeine und spezielle Anwendungen für Rohre und Platten verwendet werden. Die Compounds können mineralgefüllt (Talk, Calciumcarbonat, Bariumsulphat) oder glasfaserverstärkt sein."
+                }, {
+                    "text": "Hauptanwendungsgebiete:"
+                }],
+                "list": [{
+                    "text": "Abwassersysteme Innen- oder Aussenbereich"
+                }, {
+                    "text": "Rohre und Fittinge für chemische Anlagen"
+                }, {
+                    "text": "Druckrohre, Trinkwasserversorgung, Heizsysteme"
+                }, {
+                    "text": "Rohre mit hoher Schlagzähigkeit"
+                }, {
+                    "text": "Flammschutzausgerüstete Rohre"
+                }, {
+                    "text": "Wellrohre"
+                }, {
+                    "text": "Co-extrudierte Rohre"
+                }, {
+                    "text": "Platten für grosse Behälter"
+                }, {
+                    "text": "Profile"
+                }],
+                "action": [{
+                    "title": "Produktfinder",
+                    "url": "/de_termekkereso"
+                }, {
+                    "title": "Download Produktkatalog (pdf)",
+                    "url": "/assets/pdf/InnoComp_brochure_A4__2017-10-10__preview_spread__Final_Small.pdf"
+                }]
+            }], [{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-high.jpg"
+            }, {
+                "type": "list",
+                "title": "Hochgefüllte Typen",
+                "hash": "high",
+                "lead": [{
+                    "text": "Die hochgefüllten (50% bis 70% gefüllt) INNOBATCH Typen können als Masterbatch verwendet werden."
+                }, {
+                    "text": "Aus Sicht des Verarbeiters sind diese Compounds halbfertige Produkte. Der Verarbeiter kann während des Produktionsprozesses die optimale Füllrate bestimmen. So kann eine signifikante Kostenoptimierung ohne Qualitätsverlust erzielt werden."
+                }, {
+                    "text": "Diese PP- und PE Typen werden in der Lebensmittel- und Verpackungsindustrie eingesetzt, können aber auch in der Haushaltsgeräteindustrie, für Möbel im Aussenbereich und andere Anwendungen verwendet werden."
+                }, {
+                    "text": "Anwendungen:"
+                }],
+                "list": [{
+                    "text": "Platten und Profile"
+                }, {
+                    "text": "Multi-layer Platten"
+                }, {
+                    "text": "Verpackungscontainer und Boxen"
+                }, {
+                    "text": "Gartenmöbel"
+                }, {
+                    "text": "Lebensmittelverpackung (sehr gut bedruckbar und sauerstoffdurchlässig)"
+                }],
+                "action": [{
+                    "title": "Produktfinder",
+                    "url": "/de_termekkereso"
+                }, {
+                    "title": "Download Produktkatalog (pdf)",
+                    "url": "/assets/pdf/InnoComp_brochure_A4__2017-10-10__preview_spread__Final_Small.pdf"
+                }]
+            }]]
+        }
+    }
+}

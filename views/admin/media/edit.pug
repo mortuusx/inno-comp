@@ -1,0 +1,12 @@
+extends ../includes/layout.pug
+block content
+    .mdl-grid
+        .mdl-cell--3-col
+        .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--6-col: form(method='post' action='' enctype='multipart/form-data')
+            +textField({ parent: 'caption', name: 'hu', label: 'Felirat [Magyar]' })
+            +textField({ parent: 'caption', name: 'en', label: 'Felirat [Angol]' })
+            +textField({ parent: 'caption', name: 'cz', label: 'Felirat [Cseh]' })
+            if (document)
+                input(type='hidden' name='id' value=document._id)
+            +buttonField('Hozzáadás')
+        .mdl-cell--3-col

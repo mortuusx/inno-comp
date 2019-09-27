@@ -1,0 +1,8 @@
+extends includes/layout.pug
+block content
+    .mdl-grid
+        .mdl-cell--2-col
+        each card in cards
+            +card({ title: card.title, width: card.width })
+                +list(card.list)
+        .mdl-cell--2-col

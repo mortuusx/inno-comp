@@ -1,0 +1,26 @@
+{
+    "copyright": "Copyright © 2017 Inno-Comp Kft.",
+    "reserved": "Všechna práva vyhrazena.",
+    "hero": {
+        "title": "Integrated and independent compounder",
+        "lead": "Trust is Value",
+        "cta": {
+            "text": "O nás",
+            "href": "/cz_kapcsolat"
+        }
+    },
+    "gdpr" : {
+        "terms" : {
+            "text": "Podminky a pravidla pouziti webovych stranek",
+            "href": "/assets/pdf/podminky_a_pravidla_pouziti_webovych_stranek_2019.pdf"
+        },
+        "privacy" : {
+            "text": "Zasady ochrany osobnich udaju",
+            "href": "/assets/pdf/zasady_ochrany_osobnich_udaju_2019.pdf"
+        },
+        "cookie" : {
+            "text": "Pravidla pro zachazeni s cookies",
+            "href": "/assets/pdf/pravidla_pro_zachazeni_s_cookies_2019.pdf"
+        }
+    }
+}

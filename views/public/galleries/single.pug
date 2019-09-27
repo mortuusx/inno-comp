@@ -1,0 +1,8 @@
+extends ../includes/layout.pug
+block content
+    main.site-content._news._side-margin
+    .tiles
+        h2.tiles__title= i18n.menu.primary.galleries.label
+        .tiles__content
+            each gallery in results
+                +media-mosaic({ images: gallery.images, img: gallery.images && gallery.images[0].filename, mediaTypes: ['photo'], title: gallery.title })

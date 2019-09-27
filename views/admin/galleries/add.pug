@@ -1,0 +1,18 @@
+extends ../includes/layout.pug
+block content
+    .mdl-grid
+        .mdl-cell--3-col
+        .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--6-col: form(method='post' action='')
+            +textField({ name: 'hu', parent: 'title', label: 'Cím [Magyar]' })
+            +textField({ name: 'en', parent: 'title', label: 'Cím [Angol]' })
+            +textField({ name: 'cz', parent: 'title', label: 'Cím [Cseh]' })
+            +textField({ name: 'de', parent: 'title', label: 'Cím [Német]' })
+            +textField({ name: 'hu', parent: 'lead', label: 'Leírás [Magyar]' })
+            +textField({ name: 'en', parent: 'lead', label: 'Leírás [Angol]' })
+            +textField({ name: 'cz', parent: 'lead', label: 'Leírás [Cseh]' })
+            +textField({ name: 'de', parent: 'lead', label: 'Leírás [Német]' })
+            +mediaField(document)
+            if (document)
+                input(type='hidden' name='id' value=document._id)
+            +buttonField('Hozzáadás')
+        .mdl-cell--3-col

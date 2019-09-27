@@ -1,0 +1,60 @@
+{
+    "hero": {
+        "title": "6.1",
+        "lead": "6.2"
+    },
+    "landingTiles": {
+        "title": "Aplikační oblasti",
+        "tiles": [{
+            "type": "action",
+            "title": "Automotive",
+            "img": "/assets/img/landing-page_tiles-autoipar.jpg",
+            "lead": "Materiály INNOPOL pro automobilové aplikace jsou široce využívány v mnoha aplikačních oblastech v automobilech a poskytují další výhody konečným spotřebitelům.",
+            "action": [{
+                "title": "Detaily",
+                "url": "/cz_termekek#auto"
+            }, {
+                "title": "Vyhledávač produktů",
+                "url": "/cz_termekkereso"
+            }]
+        }, {
+            "type": "action",
+            "title": "Potřeby pro domácnost a elektrospotřebiče",
+            "img": "/assets/img/landing-page_tiles-haztartas.jpg",
+            "lead": "INNOPOL produkty pro potřeby jsou vhodné pro výrobu malých i velkých plastových dílů prodomácnost a elektrospotřebiče.",
+            "action": [{
+                "title": "Detaily",
+                "url": "/cz_termekek#household"
+            }, {
+                "title": "Vyhledávač produktů",
+                "url": "/cz_termekkereso"
+            }]
+        }, {
+            "type": "action",
+            "title": "Trubky a fitingy, desky",
+            "img": "/assets/img/landing-page_tiles-csovek.jpg",
+            "lead": "Materiály INNOPOL na bázi homopolymeru, blokového a random kopolymeru, určené pro výrobu trubek a desek, mohou být použity v obecných aplikacích, jakož i speciálních oblastech. Tyto kompaundy mohou být plněny minerálními plnivy (talek, křída, síran barnatý) nebo vyztuženy skleněnými vlákny.",
+            "action": [{
+                "title": "Detaily",
+                "url": "/cz_termekek#pipes"
+            }, {
+                "title": "Vyhledávač produktů",
+                "url": "/cz_termekkereso"
+            }]
+        }, {
+            "type": "action",
+            "title": "Materiály s vysokým obsahem plniva",
+            "img": "/assets/img/landing-page_tiles-nagy.jpg",
+            "lead": "Materiály INNOBATCH s vysokým obsahem plniva (obsah plniva 50-70 %) mohou být použity jako masterbatche.",
+            "action": [{
+                "title": "Detaily",
+                "url": "/cz_termekek#high"
+            }, {
+                "title": "Vyhledávač produktů",
+                "url": "/cz_termekkereso"
+            }]
+        }]
+    },
+    "newsTilesTitle": "Novinky a události",
+    "newsTilesMore": "Ukázat vše"
+}

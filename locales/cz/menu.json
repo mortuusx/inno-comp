@@ -1,0 +1,89 @@
+{
+    "primary": {
+        "index": {
+            "path": "cz_fooldal",
+            "label": "Domů"
+        },
+        "about": {
+            "path": "cz_rolunk",
+            "label": "O nás"
+        },
+        "products": {
+            "path": "cz_termekek",
+            "label": "Produkty"
+        },
+        "news": {
+            "path": "cz_hirek",
+            "label": "Zprávy"
+        },
+        "galleries": {
+            "path": "cz_galeria",
+            "label": "Galerie"
+        },
+        "contact": {
+            "path": "cz_kapcsolat",
+            "label": "Kontakt"
+        }
+    },
+    "secondary": {
+        "certificates": {
+            "path": "cz_tanusitvanyok",
+            "label": "Dokumenty"
+        },
+        "jobs": {
+            "path": "cz_allasok",
+            "label": "Pracovní příležitosti"
+        }
+    },
+    "locales": {
+        "hu": {
+            "path": "hu",
+            "label": "Magyar"
+        },
+        "en": {
+            "path": "en",
+            "label": "English"
+        }
+    },
+    "customer" : {
+        "hungary": {
+            "title": "Customer EDI",
+            "country": "Hungary",
+            "url": "https://ic-edi.com/ich-edi/"
+        },
+        "bohemia": {
+            "title": "Customer EDI",
+            "country": "Bohemia",
+            "url": "https://ic-edi.com/icb-edi/"
+        }
+    },
+    "slogan" : "Inno-Comp - Redefining Trust",
+    "user": {
+        "login": {
+            "path": "login",
+            "label": "cz_Bejelentkezés"
+        },
+        "signup": {
+            "path": "signup",
+            "label": "cz_Regisztráció"
+        },
+        "profile": {
+            "path": "admin",
+            "label": "cz_Profil"
+        },
+        "logout": {
+            "path": "logout",
+            "label": "cz_Kijelentkezés"
+        }
+    },
+    "other": {
+        "product-finder": {
+            "path": "cz_termekkereso",
+            "label": "Vyhledávač produktů"
+        },
+        "404": {
+            "path": "404",
+            "label": "cz_A keresett oldal nem található."
+        }
+    }
+}

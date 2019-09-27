@@ -1,0 +1,58 @@
+{
+    "hero": {
+        "img": "/assets/img/certificate_hero-image.jpg"
+    },
+    "intro": {
+        "paras": [{
+            "text": "Im Jahr 2006 wurde die strategische Entscheidung getroffen, die Automobilindustrie zu beliefern. Um den hohen Anforderungen gerecht zu werden, wurde der ISO/TS 16949:2009 Standard eingeführt."
+        }, {
+            "text": "Die Philosophie von Inno-Comp ist die Qualitätsorientierung. Seit Gründung im Jahr 1999 wurde das Unternehmen auf die ISO 9001 Norm ausgerichtet."
+        }, {
+            "text": "Eine weitere Philosophie ist der Umweltschutz. Aus diesem Grund wurde 2002 das ISO 14001 Zertifikat eingeführt."
+        }, {
+            "text": "Inno-Comp betreibt ein organoleptisches Labor. Mit Hilfe des Technologiezentrums Wasser (TZW) in Karlsruhe wird die Qualität unserer Produkte laufend überprüft. Prüfzertifikate zeigen alle drei Monate die Ergebnisse."
+        }, {
+            "text": "<a href='/assets/pdf/ASZF_2018_EN.pdf' target='_blank'>Allgemeine Verkaufs- und Lieferbedingungen<a>"
+        }, {
+            "text": "<a href='/assets/pdf/company_policy_2018.pdf' target='_blank'>Inno-Comp Kft. - Company Policy<a>"
+        }]
+    },
+    "companyCertificates": [{
+        "companyName": "Inno-Comp Kft.",
+        "certificates": [{
+                "title": "<span>EN ISO 9001 : 2015 </span> Qualitätsmanagement System ",
+                "url": "/assets/pdf/iso_9001_2015_19_11_2021_eng.pdf"
+            }, {
+                "title": "<span>IATF 16949 : 2016 </span> Qualitätsmanagement System",
+                "url": "/assets/pdf/iatf_16949_2016_19_11_2021_eng.pdf"
+            }, {
+                "title": "<span>EN ISO 14001 : 2015</span> Umweltmanagement System",
+                "url": "/assets/pdf/iso_14001_2015_28_04_2021_eng.pdf"
+            }]
+    }, {
+        "companyName": "Inno-Comp Bohemia, s.r.o.",
+        "certificates": [{
+                "title": "<span>EN ISO 9001 : 2015 </span> Qualitätsmanagement System",
+                "url": "/assets/pdf/iso_9001_2015_eng.pdf"
+            }, {
+                "title": "<span>IATF 16949 : 2016 </span> Qualitätsmanagement System",
+                "url": "/assets/pdf/iatf_16949_2016_eng.pdf"
+            }, {
+                "title": "<span>EN ISO 14001 : 2015</span> Umweltmanagement System",
+                "url": "/assets/pdf/iso_14001_2015_cz_eng.pdf"
+            }]
+        }
+    ],
+    "text": {
+        "paras": [{
+            "text": "Viele unserer Produkte haben Zertifikate von unabhängigen externen Instituten (Bodycote/Exova, OÉTI, ÉMI, FDA, BGA, usw.). Diese Dokumente sind unbedingt notwendig, um gesetzliche Regelungen in einigen Märkten zu erfüllen."
+        }]
+    },
+    "external_certificates": [{
+        "title": "DVGW-Werkstoffliste Polypropylen für die Trinkwasser-Installation Hygieneprüfung an PP-Granulaten und PP-Rohren der Rohstoffhersteller",
+        "url": "/assets/pdf/Q1-2018 CS 4 8000 green.pdf"
+    }, {
+        "title": "Regressionsanalyse gemäß ISO/TR 9080 der PP-R Rohrtype Tipplen CS 4-8000 grau",
+        "url": "/assets/pdf/Exova_CS_4-8000_ZF.pdf"
+    }]
+}

@@ -1,0 +1,170 @@
+{
+    "details": {
+        "injectionMouldings": {
+            "fitting": "Fitting",
+            "packaging": "Packaging",
+            "household": "Household Appliances",
+            "autoInt": "Auto / Interior",
+            "autoExt": "Auto / Exterior",
+            "autoUnd": "Auto / Under the hood",
+            "other": "Others"
+        },
+        "extrusions": {
+            "pipe": "Pipe",
+            "sheet": "Sheet"
+        }
+    },
+    "productArticle": {
+        "title": "Products",
+        "class": "flex",
+        "paras": [
+            {
+                "text": "The product range comprises the brands INNOPOL and INNOBATCH and includes principally polypropylene homopolymer as well as block- and random copolymer based compounds, which can be filled with minerals or reinforced with glass fibre or modified with elastomer."
+                },{
+                "text": "Our tailor-made compounded materials have enhanced physical properties and are suitable for manufacturing strong, stiff, impact resistant, cold resistant, pressure-tight and chemically resistant products."
+                },{
+                "text": "Besides PP compounds we produce special products using PS, PA, PE, ABS and others."
+                },{
+                "text": "With our special IQ materials we can fulfil our customers’ requirements for recycled materials. A variety of grades is available for several application fields. All our IQ grades fulfil the same high quality standards as our virgin material."
+                },{
+                "text": "Flame retardant, UV stabilized as well as scratch resistant or low odour grades are also ready to meet the expectations of our customers including OEMs, TIER1 and TIER2 companies in the Automotive,"
+                },{
+                "text": "Experimental development expands on existing knowledge gained from research and experience, which is directed to produce new materials."
+
+            }
+        ]
+    },
+    "areasTiles": {
+        "title": "Application fields",
+        "tiles": {
+            "lines": [[{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-automotive.jpg"
+            }, {
+                "type": "list",
+                "title": "Automotive",
+                "hash": "auto",
+                "lead": [{
+                    "text": "INNOPOL automotive materials are widely used in many application areas of a car, providing further advantages to the end users."
+                }],
+                "list": [{
+                    "title": "Under-the-hood",
+                    "text": "lamp-housings, battery compartments, air deflector parts, cable channels, engine covers"
+                }, {
+                    "title": "Interior",
+                    "text": "door panels, sun-visors, seat covers, air grids, pillar trims, consoles, glove boxes, HVAC parts, instrument panels"
+                }, {
+                    "title": "Exterior",
+                    "text": "bumper parts, grills, trims, boot casings, hubcaps, mudguard parts"
+                }],
+                "action": [{
+                    "title": "Product finder",
+                    "url": "/product-finder"
+                }, {
+                    "title": "Katalógus letöltése (pdf)",
+                    "url": ""
+                }]
+            }], [{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-household.jpg"
+            }, {
+                "type": "list",
+                "title": "Household and Electrical Appliances",
+                "hash": "household",
+                "lead": [{
+                    "text": "INNOPOL materials for household and electrical appliances are trustfully applicable for the production of small- and large-sized plastic parts."
+                }],
+                "list": [{
+                    "title": "Household appliances",
+                    "text": "washing machines, dishwashers, dryers, refrigerators, vacuum cleaners, irons, industrial cleaners"
+                }, {
+                    "title": "Electrical equipment",
+                    "text": "hairdryer parts, parts of lamps and lighting fixtures, electrical switches and switching components, sockets, lawn-mower casings"
+                }, {
+                    "title": "Do-it-yourself tools",
+                    "text": "casings, metal inserted plastic parts"
+
+                }],
+                "action": [{
+                    "title": "Product finder",
+                    "url": "/product-finder"
+                }, {
+                    "title": "Download catalogue (pdf)",
+                    "url": "/assets/pdf/InnoComp_brochure_A4__2017-10-10__preview_spread__Final_Small.pdf"
+                }]
+            }], [{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-pipes.jpg"
+            }, {
+                "type": "list",
+                "title": "Pipes and Fittings, Sheets",
+                "hash": "pipes",
+                "lead": [{
+                    "text": "INNOPOL polypropylene homopolymer, block- and random copolymer based raw materials for manufacturing of pipes and sheets can be used in general applications and in special areas as well. These compounds can be filled with minerals (talc, chalk, barium sulphate) or reinforced with glass fibre."
+                }, {
+                    "text": "Primary fields of application:"
+                }],
+                "list": [{
+                    "text": "indoor and outdoor sewer systems"
+                }, {
+                    "text": "pipelines and pipe fittings used in chemical plants"
+                }, {
+                    "text": "pressure pipes, pipes and other components for drinking water and heating systems"
+                }, {
+                    "text": "pipes having high impact strength"
+                }, {
+                    "text": "flame retardant pipes"
+                }, {
+                    "text": "corrugated pipes"
+                }, {
+                    "text": "co-extruded pipes"
+                }, {
+                    "text": "sheets for large containers"
+                }, {
+                    "text": "profiles"
+                }],
+                "action": [{
+                    "title": "Product finder",
+                    "url": "/product-finder"
+                }, {
+                    "title": "Download catalogue (pdf)",
+                    "url": "/assets/pdf/InnoComp_brochure_A4__2017-10-10__preview_spread__Final_Small.pdf"
+                }]
+            }], [{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-high.jpg"
+            }, {
+                "type": "list",
+                "title": "High Filler-content Materials",
+                "hash": "high",
+                "lead": [{
+                    "text": "INNOBATCH high filler-content materials (50-70 % filler content) can be fed as masterbatches."
+                }, {
+                    "text": "These compounds are semi-finished products from a user point of view, so they allow the user to determine the optimal feeding rate during the processing operation. In this way, significant cost saving can be achieved without deteriorating the quality."
+                }, {
+                    "text": "These types (based on polypropylene or polyethylene) are mainly recommended for the areas of the food and packaging industries, but they can be used for manufacturing household appliances, outdoor furniture and for other purposes, too."
+                }, {
+                    "text": "Applications:"
+                }],
+                "list": [{
+                    "text": "sheets and profiles"
+                }, {
+                    "text": "multi-layer sheets"
+                }, {
+                    "text": "packaging containers and boxes"
+                }, {
+                    "text": "garden furniture"
+                }, {
+                    "text": "food packaging (well-printable and breathable films)"
+                }],
+                "action": [{
+                    "title": "Product finder",
+                    "url": "/product-finder"
+                }, {
+                    "title": "Download catalogue (pdf)",
+                    "url": "/assets/pdf/InnoComp_brochure_A4__2017-10-10__preview_spread__Final_Small.pdf"
+                }]
+            }]]
+        }
+    }
+}

@@ -1,0 +1,36 @@
+extends includes/layout.pug
+block content
+    main.site-content._certificates
+        +hero-img(i18n.hero.img)
+        ._side-margin._split
+            section.page-content._side-margin__mobile
+                each p in i18n.intro.paras
+                    p !{p.text}
+                each comp in i18n.companyCertificates
+                    .company-certificates
+                        .certificate__company-name= comp.companyName
+                        ul.certificate__container
+                            each cert in comp.certificates
+                                li
+                                    svg(xmlns='http://www.w3.org/2000/svg', viewbox='0 0 17 21')
+                                        path(fill='#00ADEF', d='M16 4v16H4V4h12m1-1H3v18h14V3z')
+                                        path(fill='#FFF', d='M.5 17.5V.5h10v3h3v14z')
+                                        path(fill='#00ADEF', d='M10 1v3h3v13H1V1h9m1-1H0v18h14V3h-3V0z')
+                                        path(fill='#FFF', d='M11.5 2.5V1.2l1.3 1.3z')
+                                        path(fill='#00ADEF', d='M11 0v3h3l-3-3z')
+                                    a.certificate(href=cert.url target='_blank') !{cert.title}
+                each p in i18n.text.paras
+                    p= p.text
+                .company-certificates
+                    ul.certificate__container
+                        each cert in i18n.external_certificates
+                            li
+                                svg(xmlns='http://www.w3.org/2000/svg', viewbox='0 0 17 21')
+                                    path(fill='#00ADEF', d='M16 4v16H4V4h12m1-1H3v18h14V3z')
+                                    path(fill='#FFF', d='M.5 17.5V.5h10v3h3v14z')
+                                    path(fill='#00ADEF', d='M10 1v3h3v13H1V1h9m1-1H0v18h14V3h-3V0z')
+                                    path(fill='#FFF', d='M11.5 2.5V1.2l1.3 1.3z')
+                                    path(fill='#00ADEF', d='M11 0v3h3l-3-3z')
+                                a.certificate(href=cert.url target='_blank') !{cert.title}
+            aside.page-sidebar
+                +catalog-banner

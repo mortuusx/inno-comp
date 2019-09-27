@@ -1,0 +1,66 @@
+extends ../includes/layout.pug
+
+block content
+    .mdl-grid
+        .mdl-cell--3-col
+        .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--6-col: form(method='post' action='' enctype='multipart/form-data')
+            +textField({ name: 'name', label: 'Name' })
+            fieldset
+                legend Polymer type
+                select(name='polymerType')
+                    each value in polymerTypes
+                        if (document && document.polymerType === value)
+                            option(value=value selected)= value
+                        else
+                            option(value=value)=value
+            fieldset
+                legend Extrusion
+                each value in extrusions
+                    label(for=`extrusion-${value}`)
+                        span= value
+                        input(type='checkbox' name=`extrusion-${value}` value='true' checked= document && document.extrusion.indexOf(value) > -1 ? true : false)
+            fieldset
+                legend Injection Moulding
+                each value in injectionMouldings
+                    label(for=`injectionMoulding-${value}`)
+                        span= value
+                        input(type='checkbox' name=`injectionMoulding-${value}` value='true' checked= document && document.injectionMoulding.indexOf(value) > -1 ? true : false)
+            +textField({ name: 'mfr', label: 'MFR' })
+            +textField({ name: 'density', label: 'Density' })
+            +textField({ name: 'tensileModulus', label: 'Tensile Modulus' })
+            +textField({ name: 'yieldStress', label: 'Yield Stress' })
+            fieldset
+                legend Impact Strength
+                +textField({ name: 'u23', parent: 'impactStrength', label: 'Unnotched, Charpy 23°C' })
+                +textField({ name: 'u20', parent: 'impactStrength', label: 'Unnotched, Charpy -20°C' })
+                +textField({ name: 'n23', parent: 'impactStrength', label: 'Notched, Charpy 23°C' })
+                +textField({ name: 'nm20', parent: 'impactStrength', label: 'Notched, Charpy -20°C' })
+            +textField({ name: 'flexuralModulus', label: 'Flexural Modulus' })
+            +textField({ name: 'hdt', label: 'HDT' })
+            +selectField({ name: 'frClass', label: 'FR Class', values: ['', 'V-0', 'V-2'] })
+            +selectField({ name: 'scratchResistance', label: 'Scratch Resistance', values: ['True', 'False'], toLowerCase: true })
+            +selectField({ name: 'uvResistance', label: 'UV Resistance', values: ['True', 'False'], toLowerCase: true })
+            fieldset
+                legend Filler Type and Content (%)
+                +textField({ name: 'talc', parent: 'fillerType', label: 'talc' })
+                +textField({ name: 'chalk', parent: 'fillerType', label: 'chalk' })
+                +textField({ name: 'mica', parent: 'fillerType', label: 'mica' })
+                +textField({ name: 'glassFibre', parent: 'fillerType', label: 'glass fibre' })
+                +textField({ name: 'bariumSulphate', parent: 'fillerType', label: 'barium sulphate' })
+                +textField({ name: 'elastomer', parent: 'fillerType', label: 'elastomer' })
+                +textField({ name: 'woodFibre', parent: 'fillerType', label: 'wood fibre' })
+                +selectField({ name: 'differentFiller', parent: 'fillerType', label: 'different filler content', values: ['True', 'False'], toLowerCase: true })
+            .mdl-grid
+                .mdl-cell.mdl-cell--3-col
+                .mdl-cell.mdl-cell--6-col
+                    if (document && document.pdfUrl)
+                        input(type='hidden' name='origpdfUrl' value=document.pdfUrl)
+                        p= document.pdfUrl
+                    else
+                        label(for='pdfUrl') PDF
+                    input(type='file' name='pdfUrl')
+                .mdl-cell.mdl-cell--3-col
+            if (document)
+                input(type='hidden' name='id' value=document._id)
+            +buttonField('Hozzáadás')
+        .mdl-cell--3-col

@@ -1,0 +1,193 @@
+{
+    "title": "Vyhledávač produktů",
+    "searchPlaceholder": "Keresés terméknév alapján...",
+    "searchLabel": "Výsledky",
+    "searchResults": "",
+    "searchButtonLabel": "Search",
+    "resetButtonLabel": "Zrušit",
+    "extrusion": "Extruze",
+    "injectionMoulding": "Vstřikování",
+    "noFill": "Bez plniva",
+    "talc": "Plněný talkem",
+    "chalk": "Plněný křídou",
+    "glassFibre": "Vyztužený skleněnými vlákny",
+    "elastomer": "Modifikovaný elastomerem",
+    "fillElastomer": "Modifikovaný plnivem a elastomerem",
+    "differentFiller": "Ostatní plniva",
+    "selectPlaceholder": "Zvolit",
+    "other": "Ostatní plniva",
+    "formFields": [
+        {
+            "label": "Aplikační oblasti",
+            "name": "applicationField",
+            "options": [
+                {
+                    "display": "Automotive - interiér",
+                    "value": "autoInt"
+                },
+                {
+                    "display": "Automotive - exteriér",
+                    "value": "autoExt"
+                },
+                {
+                    "display": "Automotive - pod kapotou",
+                    "value": "autoUnd"
+                },
+                {
+                    "display": "Domácí a elektrické spotřebiče",
+                    "value": "household"
+                },
+                {
+                    "display": "Trubky, desky, fitingy",
+                    "value": "fitting,pipe,sheet"
+                },
+                {
+                    "display": "Obaly",
+                    "value": "packaging"
+                },
+                {
+                    "display": "Ostatní",
+                    "value": "other"
+                }
+            ]
+        },
+        {
+            "label": "MFR (230 °C / 2,16 kg; ISO 1133)",
+            "name": "mfr",
+            "options": [
+                {
+                    "display": "<= 2 gram/10 min.",
+                    "value": "-1<2"
+                },
+                {
+                    "display": "> 2 and <= 20 gram/10 min.",
+                    "value": "2<20"
+                },
+                {
+                    "display": "> 20 and <= 40 gram/10 min.",
+                    "value": "20<40"
+                },
+                {
+                    "display": "> 40 gram/10 min.",
+                    "value": "40<99999999"
+                }
+            ]
+        },
+        {
+            "label": "Modul pružnosti v tahu (ISO 527-1, -2)",
+            "name": "tensileModulus",
+            "options": [
+                {
+                    "display": "<= 2000 MPa",
+                    "value": "-1<2000"
+                },
+                {
+                    "display": "2001 - 4000 MPa",
+                    "value": "2000<4000"
+                },
+                {
+                    "display": "4001 - 6000 MPa",
+                    "value": "4000<6000"
+                },
+                {
+                    "display": "6001 - 10000 MPa",
+                    "value": "6000<10000"
+                },
+                {
+                    "display": "> 10000 MPa",
+                    "value": "10000<99999999"
+                }
+            ]
+        },
+        {
+            "label": "Typ plniva",
+            "name": "fillerType",
+            "options": [
+                {
+                    "display": "Křída",
+                    "value": "chalk"
+                },
+                {
+                    "display": "Talek",
+                    "value": "talc"
+                },
+                {
+                    "display": "Slída",
+                    "value": "mica"
+                },
+                {
+                    "display": "Skleněná vlákna",
+                    "value": "glassFibre"
+                },
+                {
+                    "display": "Sulfát baria",
+                    "value": "bariumSulphate"
+                },
+                {
+                    "display": "Elastomer",
+                    "value": "elastomer"
+                },
+                {
+                    "display": "Dřevěná vlákna nebo dřevěný prach",
+                    "value": "woodFibre"
+                }
+            ]
+        },
+        {
+            "label": "Obsah plniva",
+            "name": "fillerContent",
+            "options": [
+                {
+                    "display": "< = 10 %",
+                    "value": "-1<10"
+                },
+                {
+                    "display": "11 - 20 %",
+                    "value": "11<20"
+                },
+                {
+                    "display": "21 - 30 %",
+                    "value": "21<30"
+                },
+                {
+                    "display": "31 - 40 %",
+                    "value": "31<40"
+                },
+                {
+                    "display": "41 - 50 %",
+                    "value": "41<50"
+                },
+                {
+                    "display": "51 - 60 %",
+                    "value": "51<60"
+                },
+                {
+                    "display": "> 60 %",
+                    "value": "60<99999999"
+                }
+            ]
+        },
+        {
+            "label": "Houževnatost Charpy (vrubová, 23°C)",
+            "name": "n23",
+            "options": [
+                {
+                    "display": "<= 10 kJ/m2",
+                    "value": "-1<10"
+                },
+                {
+                    "display": "> 10 and <= 20 kJ/m2",
+                    "value": "10<20"
+                },
+                {
+                    "display": "> 20 and <= 40 kJ/m2",
+                    "value": "20<40"
+                },
+                {
+                    "display": "> 40 kJ/m2",
+                    "value": "40<99999999"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "hero": {
+        "img": "/assets/img/certificate_hero-image.jpg"
+    },
+    "intro": {
+        "paras": [{
+            "text": "Stratégiai döntése értelmében az Inno-Comp Kft. 2006-ban célul tűzte ki, hogy autóipari beszállítóvá válik. Annak érdekében, hogy megfeleljünk az autóipari beszállítók magas szintű követelményeinek, bevezettük és azóta is üzemeltetjük az ISO/TS 16949:2009 szabványnak megfelelő minőségügyi rendszert."
+        }, {
+            "text": "Az Inno-Comp alap üzleti filozófiája a minőség iránti elkötelezettség. Ennek megfelelően cégünk ISO 9001 szerint építette ki minőség-biztosítási rendszerét még alapításának évében, 1999-ben."
+        }, {
+            "text": "Környezetünk és közvelten lakóhelyünk védelme az Inno-Comp másik alap-filozófiája. Ennek eredményeként  2002-ben az ISO 14001-es szabvány is sikeresen bevezetésre került."
+        }, {
+            "text": "Az egészségünkre és környezetünkre való káros hatások kiküszöbölése érdekében új organoleptikus laboratóriumot hoztunk létre, ahol a karlsruhe-i Technologiezentrum Wasser (TZW) segítségével folyamatosan vizsgáljuk termékeink minőségét. A vizsgálati eredményekről tanúsítványokat kapunk negyedévenkénti rendszerességgel a fenti intézettől."
+        }, {
+            "text": "<a href='/assets/pdf/ASZF_2018_HU.pdf' target='_blank'>Általános Szállítási Feltételek<a>"
+        }, {
+            "text": "<a href='/assets/pdf/vallalati_politika_2018.pdf' target='_blank'>Inno-Comp Kft. - Vállalati Politika<a>"
+        }, {
+            "text": "<a href='/assets/pdf/vallalati_felelossegpolitika.pdf' target='_blank'>Inno-Comp Kft. - Vállalati felelősségpolitika<a>"
+        }, {
+            "text": "<a href='/assets/pdf/inno_comp_kft_ebk_eloiras.pdf' target='_blank'>Inno-Comp Kft. - EBK előírás<a>"
+        }, {
+            "text": "<a href='/assets/pdf/inno_comp_kft_eves_energetikai_szakreferensi_riport_2017.pdf' target='_blank'>Inno-Comp Kft.  - Éves energetikai szakreferensi riport 2017<a>"
+        }]
+    },
+    "companyCertificates": [{
+        "companyName": "Inno-Comp Kft.",
+        "certificates": [{
+                "title": "<span>EN ISO 9001 : 2015</span> Minőségirányítási Rendszer",
+                "url": "/assets/pdf/iso_9001_2015_19_11_2021_hu.pdf"
+            }, {
+                "title": "<span>IATF 16949 : 2016</span> Minőségmenedzsment Rendszer Tanúsítvány",
+                "url": "/assets/pdf/iatf_16949_2016_19_11_2021_hu.pdf"
+            }, {
+                "title": "<span>EN ISO 14001 : 2015</span> Környezet-irányítási Rendszer",
+                "url": "/assets/pdf/iso_14001_2015_28_04_2021_hu.pdf"
+            }]
+        }, {
+        "companyName": "Inno-Comp Bohemia, s.r.o.",
+        "certificates": [{
+                "title": "<span>EN ISO 9001 : 2015</span> Quality Management System",
+                "url": "/assets/pdf/iso_9001_2015_eng.pdf"
+            }, {
+                "title": "<span>IATF 16949 : 2016 </span> Quality Management System",
+                "url": "/assets/pdf/iatf_16949_2016_eng.pdf"
+            }, {
+                "title": "<span>EN ISO 14001 : 2015</span> Environmental Management System ",
+                "url": "/assets/pdf/iso_14001_2015_cz_eng.pdf"
+            }]
+        }
+    ],
+    "text": {
+        "paras": [{
+            "text": "Termékeink többsége rendelkezik független, külső intézetek tanúsítványaival (Bodycote/Exova, OÉTI, ÉMI, FDA, BGA, stb.). Ezek a dokumentumok támogatják az értékesítést és szükségesek számos kötelező jellegű követelmény kielégítésére bizonyos piacokon."
+        }]
+    },
+    "external_certificates": [{
+        "title": "DVGW alapanyaglista: gyártók, akik az ivóvízrendszerekben alkalmazott PP granulátumok és PP csövek higiéniai vizsgálatának megfelelnek (W 270)",
+        "url": "/assets/pdf/Q1-2018 CS 4 8000 green.pdf"
+    }, {
+        "title": "INNOPOL CS 4-8000 ZF alapanyagból készült PP-R cső ISO 9080 szerinti becsült várható élettartam görbéje",
+        "url": "/assets/pdf/Exova_CS_4-8000_ZF.pdf"
+    }]
+}

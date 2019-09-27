@@ -1,0 +1,11 @@
+{
+    "modelNames": {
+        "Product": "Termék",
+        "Article": "Cikk",
+        "Media": "Média",
+        "Program": "Program",
+        "Job": "Állás",
+        "User": "Felhasználó",
+        "Gallery": "Galéria"
+    }
+}

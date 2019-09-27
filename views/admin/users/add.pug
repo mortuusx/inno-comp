@@ -1,0 +1,14 @@
+extends ../includes/layout.pug
+block content
+    .mdl-grid
+        .mdl-cell--3-col
+        .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--6-col: form(method='post' action='')
+            +textField({ name: 'email', label: 'Email' })
+            +textField({ name: 'password', label: 'Password', password: true })
+            +textField({ name: 'firstName', label: 'First Name' })
+            +textField({ name: 'lastName', label: 'Last Name' })
+            +checkboxField({ name: 'isAdmin', label: 'Admin jogosultság', value: document && document.isAdmin ? document.isAdmin : null })
+            if (document)
+                input(type='hidden' name='id' value=document._id)
+            +buttonField('Hozzáadás')
+        .mdl-cell--3-col

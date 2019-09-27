@@ -1,0 +1,113 @@
+{
+    "aboutUsHeroImg": {
+        "img": "/assets/img/about-us_hero-image.jpg"
+    },
+    "aboutUsMissionHeroImg": {
+        "img": "/assets/img/about-us_mission_hero-image.jpg"
+    },
+    "storyArticle": {
+        "title": "Unternehmensgeschichte",
+        "class": "flex",
+        "paras": [
+            {
+                "text": "Inno-Comp Ungarn wurde am 1. Januar 1999 gegründet. Sie ist der erste integrierte Polypropylen Compounder in Osteuropa. Inno-Comp befindet sich in Tiszaújváros, Ungarn, etwa 180 km östlich von Budapest."
+            }, {
+                "text": "Um den Verkauf in Westeuropa und speziell in Deutschland zu fördern, wurde 2017 Inno-Comp Deutschland GmbH gegründet."
+            }, {
+                "text": "Im Oktober 2008 wurde die Produktion von Inno-Comp Böhmen, Litvinov, Tschechien, begonnen. Dadurch wird die Belieferung der Kunden in Zentraleuropa sichergestellt."
+            }, {
+                "text": "Als ersten Schritt unseres Engagements für die Recyclingwirtschaft gründete Inno-Comp im Jahr 2019 ein Joint-Venture mit dem Namen InnogaV. Durch die Möglichkeit unsere Recyclingmaterialströme zu kontrollieren, können wir die hohe Qualität, die unsere Partner gewöhnt sind, sicherstellen."
+            }, {
+                "text": "Beide Produktionsstandorte sind mit großen Polyolefinproduzenten in der Region integriert: mit MOL in Tiszaújváros und mit Unipetrol in Litvinov. Diese Nähe gibt Inno-Comp und seinen Kunden viele langfristige strategische Vorteile."
+            }, {
+                "text": "Unsere Verkaufsaktivitäten werden durch ein gut organisiertes Netz von Händlern und Vertretern in Europa und im Nahen Osten ergänzt."
+            }, {
+                "text": "Inno-Comp Slowakei wurde 2005 in Bratislava gegründet. Verkauf und Marktentwicklung für Tschechien und die Slowakei wird von dort ausgeführt."
+            }, {
+                "text": "Unseren Stamm- und zukünftigen Kunden steht eine nominelle Kapazität von 130.000 Tonnen zur Erfüllung der Mengenerwartungen zur Verfügung."
+            }
+        ]
+    },
+    "aboutUsImgTiles": {
+        "title": "",
+        "tiles": [{
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_1.jpg"
+        }, {
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_2.jpg"
+        }, {
+            "type": "img",
+            "img": "/assets/img/about-us_lab-image_3.jpg"
+        }]
+    },
+    "missionArticle": {
+        "title": "Mission",
+        "class": "flex",
+        "paras": [
+            {
+                "text": "Ziel der Inno-Comp Gruppe ist es ein bestimmender Compoundeur in Europa zu sein. Dies geschieht durch dauernde Weiterentwicklung der Produkte und Kapazitäten."
+            }, {
+                "text": "Unser Unternehmen ist bestrebt, den Anforderungen von Innovation, Flexibilität, Kundenzufriedenheit und der Umwelt nachzukommen."
+            }
+        ]
+    },
+    "demandsTiles": {
+        "tiles": [{
+            "type": "text",
+            "title": "Innovation",
+            "paras": [{
+                "text": "Eines der wichtigsten Ziele ist der Null-Fehler-Ablauf. Dies wird durch dauernde Verbesserungen in der Produktentwicklung und der technischen Weiterentwicklung erreicht. Wir sind bestrebt, unser Hauptaugenmerk auf Kundenorientierung, Einkaufsabwicklung und Verkaufsaktivitäten zu legen. Durch das neue ERP System (Enterprise Resource Planning) wurden effiziente interne Abläufe gestaltet um den Kundenwünschen noch besser zu entsprechen."
+            }]
+        }, {
+            "type": "text",
+            "title": "Flexibilität",
+            "paras": [{
+                "text": "Aufgrund unserer Größe und Know-hows können wir sehr rasch auf neue Herausforderungen, etwa Kundenwünsche oder wirtschaftliche Umfeldänderungen, reagieren."
+            }]
+        }, {
+            "type": "text",
+            "title": "Kundenzufriedenheit",
+            "paras": [{
+                "text": "Unser Ziel ist es der bevorzugte Lieferant unserer Kunden zu sein. Wir folgen den Markttrends und Marktbedürfnissen. Umweltschutz geht Hand in Hand mit unserem Verständnis von Marktbedürfnissen."
+            }]
+        }, {
+            "type": "text",
+            "title": "Nachhaltigkeit",
+            "paras": [
+                {
+                    "text": "Als Kunststoffcompoundeur ist sich Inno-Comp der Verantwortung aller Aktivitäten bewußt. Unsere Produkte sind für ökologische und soziale Verbesserungen ausgelegt. Nachhaltigkeit zeigt sich im Produktlebenszyklus."
+                },
+                {
+                    "text": "Schonender Umgang mit Rohstoffen, elektrischer Energie, Wasser und anderen Ressourcen ist uns wichtig."
+                },
+                {
+                    "text": "Unsere Mitarbeiter setzen bei Ihren täglichen Aktivitäten den Nachhaltigkeitsgedanken um. Wir bieten Ihnen regelmässige Schulungen als auch medizinische und soziale Unterstützung. Ein offenes Management, das auf den Grundsätzen von Fairness und Gleichheut basiertm ist ein Leitprinzip."
+                }
+            ]
+        }]
+    },
+    "socialArticle": {
+        "title": "Soziale Verantwortung",
+        "class": "flex",
+        "paras": [{
+            "text": "Wir sind uns der großen Verantwortung bewusst und unterstützen verschiedene Einrichtungen."
+        }],
+        "list": [{
+            "title": "Tradition und Kultur",
+            "text": "(Fischsuppenfest Tiszaújváros)"
+        }, {
+            "title": "Sport",
+            "text": "(Triathlon, Autorally Team, Strongman)"
+        }, {
+            "title": "Bildung",
+            "text": "(Musikschule)"
+        }, {
+            "title": "Hilfsorganisationen",
+            "text": "(Rotes Kreuz, behinderte Kinder)"
+        }, {
+            "title": "Soziale Aktivitäten für Angehörige",
+            "text": "(Familientag, Nikolausfest)"
+        }]
+    }
+}

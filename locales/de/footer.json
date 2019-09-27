@@ -1,0 +1,26 @@
+{
+    "copyright": "Copyright © 2017 Inno-Comp Kft.",
+    "reserved": "Alle Rechte vorbehalten.",
+    "hero": {
+        "title": "Integrated and independent compounder",
+        "lead": "Trust is Value",
+        "cta": {
+            "text": "Über uns",
+            "href": "/de_rolunk"
+        }
+    },
+    "gdpr" : {
+        "terms" : {
+            "text": "Allgemeine Geschäftsbedingungen unserer Internetseite.",
+            "href": "/assets/pdf/terms_and_conditions_of_website_use_2019.pdf"
+        },
+        "privacy" : {
+            "text": "Datenschutz-Bestimmungen",
+            "href": "/assets/pdf/privacy_policy_2019.pdf"
+        },
+        "cookie" : {
+            "text": "Cookie-Richtlinien",
+            "href": "/assets/pdf/cookie_policy_2019.pdf"
+        }
+    }
+}

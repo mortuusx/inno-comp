@@ -1,0 +1,171 @@
+{
+    "details": {
+        "injectionMouldings": {
+            "fitting": "Fitting",
+            "packaging": "Packaging",
+            "household": "Household Appliances",
+            "autoInt": "Auto / Interior",
+            "autoExt": "Auto / Exterior",
+            "autoUnd": "Auto / Under the hood",
+            "other": "Others"
+        },
+        "extrusions": {
+            "pipe": "Pipe",
+            "sheet": "Sheet"
+        }
+    },
+    "productArticle": {
+        "title": "Termékek",
+        "class": "flex",
+        "paras": [
+            {
+                "text": "INNOPOL és INNOBATCH márkanevű termékportfóliónk főképpen polipropilén homopolimer, valamint blokk és random kopolimer alapú kompaundokat foglal magában, melyek lehetnek ásványi anyagokkal töltöttek, üvegszállal erősítettek vagy elasztomerrel modifikáltak."
+                },{
+                "text": "Személyre szabott kompaundjaink kiemelkedő fizikai tulajdonságokkal rendelkeznek és alkalmasak nagy szilárdságú, nagy merevségű, ütésálló, hidegálló, nyomásálló és vegyszerálló termékek gyártására."
+                },{
+                "text": "A PP komaundok mellett speciális termékek gyártásához olyan egyéb műanyagokat is használunk, mint például PS, PA, PE, ABS."
+                },{
+                "text": "Speciális IQ termékeinkkel teljesíteni tudjuk vásárlóink újrahasznosított anyagokra vonatkozó igényeit. Több alkalmazási területre változatos termékskála áll rendelkezésre. Valamennyi IQ alapanyag teljesíti a kiemelt minőségi elvárásokat, hasonlóan a szűz alapanyagokból készült termékeinkhez."
+                },{
+                "text": "Égésgátolt, UV-stabilizált, karcálló vagy akár alacsony illóanyag tartalmú alapanyagaink megfelelelnek a vevői követelményeknek, beleértve OEM-eket, TIER1-es és TIER2-es vállalatokat az Autóipar, Csomagolóipar, az Elektromos és Háztartási gépek,  műanyag Csövek, Fittingek és Lemezek gyártása terén."
+                },{
+                "text": "A tapasztalatokon alapuló fejlesztés kiterjed a kutatásokból és kísérletekből nyert meglévő tudásra, amely új anyagok előállítására irányul."
+
+            }
+        ]
+    },
+    "areasTiles": {
+        "title": "Alkalmazási területek",
+        "tiles": {
+            "lines": [[{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-automotive.jpg"
+            }, {
+                "type": "list",
+                "title": "Autóipar",
+                "hash": "auto",
+                "lead": [{
+                    "text": "Az INNOPOL autóipari anyagok széles körben használhatóak egy autó számos felhasználási területén, további előnyöket biztosítva ezzel a végfelhasználók számára."
+                }],
+                "list": [{
+                    "title": "Motortér",
+                    "text": "lámpaházak, akkumulátor-házak, légterelők, kábelcsatornák, motor burkolatok"
+                }, {
+                    "title": "Beltér",
+                    "text": "ajtópanelek, napellenzők, ülésburkolatok, szellőzőrácsok, oszlopburkolatok, konzolok, kesztyűtartók, HVAC alkatrészek, műszerfalak"
+                }, {
+                    "title": "Kültér",
+                    "text": "lökhárító alkatrészek, rácsok, burkolatok, díszlécek, dísztárcsák, sárvédők"
+                }],
+                "action": [{
+                    "title": "Termékkereső",
+                    "url": "/termekkereso"
+                }, {
+                    "title": "Katalógus letöltése (pdf)",
+                    "url": "/"
+                }]
+            }], [{
+                "type": "list-img",
+                "img": "/assets/img/products-page_tile-household.jpg"
+            }, {
+                "type": "list",
+                "title": "Háztartási és Elektromos Eszközök",
+                "hash": "household",
+                "lead": [{
+                    "text": "A háztartási és elektromos eszközök előállítására szánt INNOPOL anyagok megbízhatóan használhatók kis- és nagyméretű műanyag alkatrészek gyártásához."
+                }],
+                "list": [{
+                    "title": "Háztartási eszközök",
+                    "text": "mosógépek, mosogatógépek, szárítók, hűtőgépek, porszívók, vasalók, ipari tisztító-berendezések"
+                }, {
+                    "title": "Elektromos eszközök",
+                    "text": "hajszárítók, lámpák és világítási tartozékok, elektromos kapcsolók és tartozékaik, konnektorok, fűnyírógépek burkolatai"
+                }, {
+                    "title": "Barkácseszközök",
+                    "text": "burkolatok, fémbetétes műanyag alkatrészek"
+                }],
+                "action": [{
+                        "title": "Termékkereső",
+                        "url": "/termekkereso"
+                    }, {
+                        "title": "Katalógus letöltése (pdf)",
+                        "url": ""
+                    }]
+                }],
+                [{
+                    "type": "list-img",
+                    "img": "/assets/img/products-page_tile-pipes.jpg"
+                }, {
+                    "type": "list",
+                    "title": "Csövek és Fittingek, Lemezek",
+                    "hash": "pipes",
+                    "lead": [{
+                        "text": "A csövek és lemezek gyártására kifejlesztett polipropilén homopolimer, blokk és random kopolimer alapú INNOPOL anyagok alkalmasak mind általános, mind speciális felhasználási területekre. Ezek a kompaundok lehetnek ásványi anyagokkal töltöttek (talkum, kréta, bárium-szulfát) vagy üvegszállal erősítettek."
+                    }, {
+                        "text": "Elsődleges alkalmazási területek:"
+                    }],
+                    "list": [{
+                        "text": "beltéri és kültéri szennyvízrendszerek"
+                    }, {
+                        "text": "vegyipari üzemek csővezeték-rendszerei és kiegészítő elemei"
+                    }, {
+                        "text": "nyomásálló csövek, ivóvíz- és fűtésrendszerek vezetékei és alkatrészei"
+                    }, {
+                        "text": "nagyfokú ütésállósággal rendelkező csövek"
+                    }, {
+                        "text": "égésgátolt csövek"
+                    }, {
+                        "text": "korrugált csövek"
+                    }, {
+                        "text": "koextrudált csövek"
+                    }, {
+                        "text": "nagyméretű tartályok lemezei"
+                    }, {
+                        "text": "profilok"
+                    }],
+                    "action": [{
+                        "title": "Termékkereső",
+                        "url": "/termekkereso"
+                    }, {
+                        "title": "Katalógus letöltése (pdf)",
+                        "url": ""
+                    }]
+                }], [{
+                    "type": "list-img",
+                    "img": "/assets/img/products-page_tile-high.jpg"
+                }, {
+                    "type": "list",
+                    "title": "Nagytöltöttségű anyagok",
+                    "hash": "high",
+                    "lead": [{
+                        "text": "Nagytöltöttségű INNOBATCH anyagaink (50-70 %-os töltőanyag-tartalom) mesterkeverékként adagolhatóak."
+                    }, {
+                        "text": "Ezek a kompaundok a feldolgozó szempontjából félkész termékek, ezért a gyártás során lehetőséget nyújtanak a felhasználó számára az adagolás optimális kiválasztására. Ezzel jelentős költség-megtakarítás érhető el a minőség megtartása mellett."
+                    }, {
+                        "text": "Ezen termékeinket (polipropilén vagy polietilén bázison) főképpen az élelmiszeripar és csomagolás-technika területére kínáljuk, de alkalmazásuk háztartási cikkek, kerti bútorok gyártásánál és egyéb felhasználási területeken is lehetséges."
+                    }, {
+                        "text": "Alkalmazások:"
+                    }],
+                    "list": [{
+                        "text": "lemezek és profilok"
+                    }, {
+                        "text": "többrétegű lemezek"
+                    }, {
+                        "text": "csomagoló tartályok és dobozok"
+                    }, {
+                        "text": "kerti bútorok"
+                    }, {
+                        "text": "élelmiszer-csomagolás (nyomtatható és légáteresztő fóliák)"
+                    }],
+                    "action": [{
+                        "title": "Termékkereső",
+                        "url": "/termekkereso"
+                    }, {
+                        "title": "Katalógus letöltése (pdf)",
+                        "url": ""
+                    }]
+                }]
+            ]
+        }
+    }
+}

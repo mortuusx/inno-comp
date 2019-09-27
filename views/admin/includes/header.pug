@@ -1,0 +1,13 @@
+header.mdl-layout__header: .mdl-layout__header-row
+    .mdl-layout__title Inno-Comp Admin
+    .mdl-layout-spacer
+    nav.mdl-navigation
+        a.mdl-navigation__link(href='/admin/'): i.material-icons home
+        each menuItem in [{ path: 'products', name: 'Termékek' }, { path: 'news', name: 'Hírek' }, { path: 'media', name: 'Média' }, { path: 'galleries', name: 'Galériák' }, { path: 'programs', name: 'Programok' }, { path: 'jobs', name: 'Állások' }, { path: 'users', icon: 'group', name: 'Felhasználók' }]
+            a.mdl-navigation__link(href=`/admin/${menuItem.path}/` style='padding:0 0 0 12px')
+                if (menuItem.icon)
+                    i.material-icons= menuItem.icon
+                else
+                    |   #{menuItem.name}
+            a.mdl-navigation__link.mdl-button.mdl-js-button.mdl-button--icon(href=`/admin/${menuItem.path}/add` style='padding:0;margin:0 0 0 4px;'): i(class='material-icons md-18') add
+        a.mdl-navigation__link(href=`/kijelentkezes` style='padding:0 0 0 24px'): i.material-icons.md-18 exit_to_app

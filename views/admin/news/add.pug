@@ -1,0 +1,31 @@
+extends ../includes/layout.pug
+block content
+    .mdl-grid
+        .mdl-cell--3-col
+        .mdl-card.mdl-shadow--2dp.mdl-cell.mdl-cell--6-col: form(method='post' action='')
+            +textField({ parent: 'title', name: 'hu', label: 'Cím [Magyar]' })
+            +textField({ parent: 'title', name: 'en', label: 'Cím [Angol]' })
+            +textField({ parent: 'title', name: 'cz', label: 'Cím [Cseh]' })
+            +textField({ parent: 'title', name: 'de', label: 'Cím [Német]' })
+            +textareaField({ parent: 'content', name: 'hu', label: 'Tartalom [Magyar]' })
+            +textareaField({ parent: 'content', name: 'en', label: 'Tartalom [Angol]' })
+            +textareaField({ parent: 'content', name: 'cz', label: 'Tartalom [Cseh]' })
+            +textareaField({ parent: 'content', name: 'de', label: 'Tartalom [Német]' })
+            +mediaField(document)
+            .mdl-grid
+                .mdl-cell.mdl-cell--1-col
+                .mdl-cell.mdl-cell--10-col
+                    label(for='gallery') Galéria hozzárendelése
+                    if (!galleries.length)
+                        p Nincs galéria
+                    else
+                        select(name='gallery')
+                            option(value='')
+                            each gallery in galleries
+                                option(value=gallery._id)= gallery.title
+                .mdl-cell.mdl-cell--1-col
+            +checkboxField({ name: 'published', label: 'Közzétéve?', value: 'true', isChecked: document && document.published})
+            if (document)
+                input(type='hidden' name='id' value=document._id)
+            +buttonField('Hozzáadás')
+        .mdl-cell--3-col

@@ -1,0 +1,60 @@
+{
+    "hero": {
+        "title": "6.1",
+        "lead": "6.2"
+    },
+    "landingTiles": {
+        "title": "Application fields",
+        "tiles": [{
+            "type": "action",
+            "title": "Automotive",
+            "img": "/assets/img/landing-page_tiles-autoipar.jpg",
+            "lead": "INNOPOL automotive materials are widely used at many application areas of a car, providing further advantages to the end users.",
+            "action": [{
+                "title": "Details",
+                "url": "/products#auto"
+            }, {
+                "title": "Product finder",
+                "url": "/product-finder"
+            }]
+        }, {
+            "type": "action",
+            "title": "Household and Electrical Appliances",
+            "img": "/assets/img/landing-page_tiles-haztartas.jpg",
+            "lead": "INNOPOL materials for household and electrical appliances are trustfully applicable for the production of small- and large-sized plastic parts.",
+            "action": [{
+                "title": "Details",
+                "url": "/products#household"
+            }, {
+                "title": "Product finder",
+                "url": "/product-finder"
+            }]
+        }, {
+            "type": "action",
+            "title": "Pipes and Fittings, Sheets",
+            "img": "/assets/img/landing-page_tiles-csovek.jpg",
+            "lead": "INNOPOL polypropylene homopolymer, block- and random copolymer based raw materials for manufacturing of pipes and sheets can be used in general applications and in special areas, as well. These compounds can be filled with minerals (talk, chalk, barium sulphate) or reinforced with glass fibre.",
+            "action": [{
+                "title": "Details",
+                "url": "/products#pipes"
+            }, {
+                "title": "Product finder",
+                "url": "/product-finder"
+            }]
+        }, {
+            "type": "action",
+            "title": "High Filler-content Materials",
+            "img": "/assets/img/landing-page_tiles-nagy.jpg",
+            "lead": "INNOBATCH high filler-content materials (50-70 % filler content) can be fed as masterbatches.",
+            "action": [{
+                "title": "Details",
+                "url": "/products#high"
+            }, {
+                "title": "Product finder",
+                "url": "/product-finder"
+            }]
+        }]
+    },
+    "newsTilesTitle": "News and events",
+    "newsTilesMore": "Show all"
+}
